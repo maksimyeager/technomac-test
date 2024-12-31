@@ -1,0 +1,47 @@
+.machines {
+    padding: 60px 0;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px;
+    }
+
+    .machine {
+        box-shadow: 0px 0px 20.1px 0px #00000026;
+        background-color: #fff;
+
+        &__info {
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            background-color: #fff;
+
+            h2 {
+                width:fit-content;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-width: 40px;
+                min-height: 40px;
+                width: 40px;
+                height: 40px;
+                background-color: #000;
+                box-shadow: 0px 0px 28.4px 0px #211e1e;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    background-color: #ED3237;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

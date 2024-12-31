@@ -1,0 +1,43 @@
+.footer {
+    padding-bottom: 15px;
+    &__top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 60px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #000000;
+    }
+
+    &__description{
+        line-height: 1.5;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        &-title {
+            font-family: Ebrima;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__bottom {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    &__link{
+        display: flex !important;
+        align-items: center;
+        gap: 10px;
+    }
+}
