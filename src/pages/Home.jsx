@@ -4,101 +4,10 @@ import { FaArrowRight } from "react-icons/fa";
 import weldingImg from "../assets/welding.png";
 import grayEllipses from "../assets/gray-ellipses.png";
 import redEllipses from "../assets/red-ellipses.png";
+import black from "../assets/black.png";
 
-import activity1 from "../assets/projects/project-1.jpg";
-import activity2 from "../assets/projects/project-2.jpg";
-import activity3 from "../assets/projects/project-3.jpg";
-import activity4 from "../assets/projects/project-5.jpg";
-import activity5 from "../assets/projects/project-6.jpg";
-
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
-
-const activities = [
-    {
-        name: "Tikinti sahəsinin hazırlanmas",
-        imageUrl: activity1,
-    },
-    {
-        name: "Yol tikintisi",
-        imageUrl: activity2,
-    },
-    {
-        name: " Su anbarlarının tikintisi",
-        imageUrl: activity1,
-    },
-    {
-        name: " Su kanallarının qazıntısı",
-        imageUrl: activity3,
-    },
-    {
-        name: "Su elektrik stansiyalarının tikintisi",
-        imageUrl: activity4,
-    },
-    {
-        name: "Beton işlərin görülməsi",
-        imageUrl: activity5,
-    },
-    {
-        name: "Metal konstruksiyaların qurulması",
-        imageUrl: activity3,
-    },
-    {
-        name: " Boruların sahədə qaynaq işlərinin aparılması",
-        imageUrl: activity4,
-    },
-    {
-        name: "Hidro Elektrik Stansia",
-        imageUrl: activity4,
-    },
-    {
-        name: "Güneş Elektrik Stansia",
-        imageUrl: activity3,
-    },
-];
-
-const projects = [
-    {
-        name: "Project 1",
-        imageUrl: project1,
-        description:
-            "Pirallahi Nərə Balıq Zavodu sahənin hazırlanması və beton işlərinin görülməsin",
-    },
-    {
-        name: "Project 2",
-        imageUrl: project2,
-        description:
-            "Bilgəhdə villaların alt yapı kanalizasiya işlərinin hazırlanması",
-    },
-    {
-        name: "Project 3",
-        imageUrl: project3,
-        description:
-            "Karabağda Cəbrayıl və Zəngilan şəhərlərində yolların hazırlanması",
-    },
-    {
-        name: "Project 4",
-        imageUrl: project4,
-        description:
-            "AzərGold Daşkəsəndə yolların və siyanur havuzlarının yapılması",
-    },
-    {
-        name: "Project 5",
-        imageUrl: project5,
-        description:
-            "Kəlbəcər şəhərində AzərEnerjinin Su Elektrik Stansiyalarının su yollarının hazırlanması və borularının qaynaq işlərinin görülməsi",
-    },
-    {
-        name: "Project 6",
-        imageUrl: project6,
-        description:
-            "Milli Gimnastika Arenası metal konstruksiyaların qurulması",
-    },
-];
+import { activities } from "../data/activities";
+// import { projects } from "../data/projects";
 
 const Home = () => {
     return (
@@ -120,17 +29,24 @@ const Home = () => {
             <section className="section section--about-us">
                 <img src={grayEllipses} alt="" className="gray-ellipses" />
                 <div className="container">
-                    <div className="section--about-us-image">
-                        <img
-                            src={weldingImg}
-                            alt=""
-                            className="section--about-us-image__img"
-                        />
-                        <img
-                            src={redEllipses}
-                            alt=""
-                            className="red-ellipses"
-                        />
+                    <div className="section--about-us__image">
+                        <div className="section__image-block">
+                            <img
+                                src={weldingImg}
+                                alt=""
+                                className="section--about-us-image__img"
+                            />
+                            <img
+                                src={redEllipses}
+                                alt=""
+                                className="red-ellipses"
+                            />
+                            <img
+                                src={black}
+                                alt=""
+                                className="black"
+                            />
+                        </div>
                     </div>
                     <div className="section--about-us-info">
                         <p className="section__subtitle">Quis autem vel eum</p>
@@ -157,18 +73,18 @@ const Home = () => {
             <section className="section section--activities">
                 <div className="container">
                     <h2 className="section__title">Fəaliyyətlərimiz</h2>
-                    <div className="machines">
-                        <div className="machines__wrapper">
+                    <div className="cards">
+                        <div className="cards__wrapper">
                             {activities.map((machine, index) => {
                                 return (
-                                    <div key={index} className="machine">
-                                        <div className="machine__image">
+                                    <div key={index} className="card">
+                                        <div className="card__image">
                                             <img
                                                 src={machine.imageUrl}
                                                 alt={machine.name}
                                             />
                                         </div>
-                                        <div className="machine__info">
+                                        <div className="card__info">
                                             <h2>{machine.name}</h2>
 
                                             <Link to={"#"}>
@@ -185,7 +101,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="section section--projects">
+            {/* <section className="section section--projects">
                 <div className="container">
                     <p className="section__subtitle">Quis autem vel eum</p>
                     <h2 className="section__title">Our Projects</h2>
@@ -209,7 +125,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="section section--info">
                 <div className="section__block-wrapper section__block-wrapper-1">
                     <div className="section__block section__block-1">

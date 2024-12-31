@@ -16,22 +16,19 @@ const servicesLink = [
         name: "Tikinti sahəsinin hazırlanmas",
     },
     {
-        name: "Yol tikintisi",
+        name: "Yol inşaatı",
     },
     {
-        name: "Su anbarlarının tikintisi",
+        name: "HES (Hidro Elektrik Stansiya)",
     },
     {
-        name: "Su kanallarının qazıntısı",
+        name: "Güneş Elektrik Stansia",
     },
     {
-        name: "Su elektrik stansiyalarının tikintisi",
+        name: "Boruların sahədə qaynaq işlərinin aparılması",
     },
     {
         name: "Beton işlərin görülməsi",
-    },
-    {
-        name: "Metal konstruksiyaların qurulması",
     },
 ];
 
@@ -67,7 +64,7 @@ const Footer = () => {
                     <div className="footer__block">
                         <h2 className="footer__block-title">Our services</h2>
                         <ul className="footer__list">
-                        {servicesLink.map((link, index) => {
+                            {servicesLink.map((link, index) => {
                                 return (
                                     <li key={index} className="footer__item">
                                         <Link to={""}>{link.name}</Link>

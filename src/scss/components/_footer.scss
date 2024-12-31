@@ -40,4 +40,15 @@
         align-items: center;
         gap: 10px;
     }
+
+    .copyright{
+        font-size: 14px;
+
+        a{
+            transition: all 0.3s ease;
+            &:hover{
+                color: #ED3237;
+            }
+        }
+    }
 }

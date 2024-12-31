@@ -31,26 +31,6 @@
                 font-weight: 700;
                 text-align: center;
             }
-
-            a {
-                margin-top: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 10px;
-                background-color: #000;
-                transition: all 0.3s ease;
-                color: #fff;
-                font-size: 16px;
-                font-weight: 700;
-                letter-spacing: 0.05em;
-                padding: 8px 20px;
-
-                &:hover {
-                    background-color: #ed3237;
-                    transform: scale(1.1);
-                }
-            }
         }
     }
 }

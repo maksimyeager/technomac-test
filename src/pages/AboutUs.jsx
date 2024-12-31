@@ -6,6 +6,9 @@ import image5 from "../assets/image-5.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
+import redEllipses from "../assets/red-ellipses.png";
+import black from "../assets/black.png";
+
 const AboutUs = () => {
     return (
         <>
@@ -32,16 +35,24 @@ const AboutUs = () => {
                             </p>
                         </div>
                         <div className="section__image">
-                            <img
-                                src={project3}
-                                alt=""
-                                className="section--img"
-                            />
-                            <img
-                                src={project5}
-                                alt=""
-                                className="section--img-absolute"
-                            />
+                            <div className="section__image-block">
+                                <img
+                                    src={project3}
+                                    alt=""
+                                    className="section--img"
+                                />
+                                <img
+                                    src={project5}
+                                    alt=""
+                                    className="section--img-absolute"
+                                />
+                                <img
+                                    src={redEllipses}
+                                    alt=""
+                                    className="red-ellipses"
+                                />
+                                <img src={black} alt="" className="black" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +119,19 @@ const AboutUs = () => {
                             </p>
                         </div>
                         <div className="section__image">
-                            <img className="section--img" src={image3} alt="" />
+                            <div className="section__image-block">
+                                <img
+                                    className="section--img"
+                                    src={image3}
+                                    alt=""
+                                />
+                                <img
+                                    src={redEllipses}
+                                    alt=""
+                                    className="red-ellipses"
+                                />
+                                <img src={black} alt="" className="black" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,7 +189,19 @@ const AboutUs = () => {
                             </p>
                         </div>
                         <div className="section__image">
-                            <img className="section--img" src={image5} alt="" />
+                            <div className="section__image-block">
+                                <img
+                                    className="section--img"
+                                    src={image5}
+                                    alt=""
+                                />
+                                <img
+                                    src={redEllipses}
+                                    alt=""
+                                    className="red-ellipses"
+                                />
+                                <img src={black} alt="" className="black" />
+                            </div>
                         </div>
                     </div>
                 </div>
