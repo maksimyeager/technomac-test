@@ -6,8 +6,8 @@ import logo from "../assets/logo.png";
 const footerLinks = [
     { name: "Haqqımızda", path: "/about-us" },
     { name: "Fəaliyyətlərimiz", path: "/activities" },
-    { name: "Machinalar", path: "/machines" },
-    { name: "Projects", path: "/projects" },
+    { name: "Makinaparkı", path: "/machines" },
+    // { name: "Projects", path: "/projects" },
     { name: "Əlaqə", path: "/contact-us" },
 ];
 
@@ -22,13 +22,13 @@ const servicesLink = [
         name: "HES (Hidro Elektrik Stansiya)",
     },
     {
-        name: "Güneş Elektrik Stansia",
+        name: "GES (Güneş Elektrik Stansia)",
     },
     {
-        name: "Boruların sahədə qaynaq işlərinin aparılması",
+        name: "Su kanalları",
     },
     {
-        name: "Beton işlərin görülməsi",
+        name: "Çelik constriction",
     },
 ];
 

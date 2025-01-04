@@ -13,17 +13,21 @@ const Home = () => {
     return (
         <>
             <div className="home-banner">
-                <div className="home-banner__info">
-                    <p className="home-subtitle">Technomaka Hoş Geldiniz!</p>
-                    <h1 className="home-title">
-                        Sektörde En iyi <br />
-                        Hizmeti Sunuyoruz
-                    </h1>
-                    <p className="home-info">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        <br /> elit, sed do eiusmod tempor incididunt ut labore
-                        et <br /> dolore magna aliqua.
-                    </p>
+                <div className="container">
+                    <div className="home-banner__info">
+                        <p className="home-subtitle">
+                            Technomaka Hoş Geldiniz!
+                        </p>
+                        <h1 className="home-title">
+                            Sektörde En iyi <br />
+                            Hizmeti Sunuyoruz
+                        </h1>
+                        <p className="home-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            <br /> elit, sed do eiusmod tempor incididunt ut
+                            labore et <br /> dolore magna aliqua.
+                        </p>
+                    </div>
                 </div>
             </div>
             <section className="section section--about-us">
@@ -41,11 +45,7 @@ const Home = () => {
                                 alt=""
                                 className="red-ellipses"
                             />
-                            <img
-                                src={black}
-                                alt=""
-                                className="black"
-                            />
+                            <img src={black} alt="" className="black" />
                         </div>
                     </div>
                     <div className="section--about-us-info">
@@ -75,19 +75,19 @@ const Home = () => {
                     <h2 className="section__title">Fəaliyyətlərimiz</h2>
                     <div className="cards">
                         <div className="cards__wrapper">
-                            {activities.map((machine, index) => {
+                            {activities.map((activity, index) => {
                                 return (
                                     <div key={index} className="card">
                                         <div className="card__image">
                                             <img
-                                                src={machine.imageUrl}
-                                                alt={machine.name}
+                                                src={activity.imageUrl}
+                                                alt={activity.name}
                                             />
                                         </div>
                                         <div className="card__info">
-                                            <h2>{machine.name}</h2>
+                                            <h2>{activity.name}</h2>
 
-                                            <Link to={"#"}>
+                                            <Link to={activity.path}>
                                                 <FaArrowRight
                                                     color="#fff"
                                                     size={20}

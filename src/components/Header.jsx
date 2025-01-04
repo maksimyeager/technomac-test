@@ -5,8 +5,8 @@ import LanguageSelector from "./LanguageSelector";
 const headerLinks = [
     { name: "Haqqımızda", path: "/about-us" },
     { name: "Fəaliyyətlərimiz", path: "/activities" },
-    { name: "Machinalar", path: "/machines" },
-    { name: "Projects", path: "/projects" },
+    { name: "Makinaparkı", path: "/machines" },
+    // { name: "Projects", path: "/projects" },
     { name: "Əlaqə", path: "/contact-us" },
 ];
 

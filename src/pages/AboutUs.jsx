@@ -8,10 +8,13 @@ import project5 from "../assets/projects/project-5.jpg";
 
 import redEllipses from "../assets/red-ellipses.png";
 import black from "../assets/black.png";
+import Banner from "../components/Banner";
+import bannerImg from "../assets/banners/about-us.jpg";
 
 const AboutUs = () => {
     return (
         <>
+            <Banner title={"Haqqımızda"} bgImage={bannerImg} />
             <section className="section section--1">
                 <div className="container">
                     <div className="section__wrapper">

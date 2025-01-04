@@ -8,25 +8,37 @@ export const activities = [
     {
         name: "Tikinti sahəsinin hazırlanmas",
         imageUrl: activity1,
+        path: "/activity/tikinti-sahesinin-hazirlanmasi",
+        description: "Fabrika sahasının alt yapısı, kanalizasyon hattının çekilmesi, çevre derlenmesi. Bina temel kazısı ve hafriyatı. Bütün toprak ve alt yapı işleri."
     },
     {
         name: "Yol inşaatı",
         imageUrl: activity2,
+        path: "/activity/yol-insaati",
+        description: "Demiryolu, otoban, köy yolları, şehir içi yollatın hazırlanması, bütün alt yapı ve asfalt işlerinin görülüp testte geçmiş hali ile teslim edilmesi."
     },
     {
         name: `HES (Hidro Elektrik Stansiya)`,
         imageUrl: activity1,
+        path: "/activity/hes-hidro-elektrik-stansiya",
+        description: "Boru hattının hazırlanması, boruların beton işlerinin yapılması, otomosyon işlerinin görülüp devreye alınması. Çalışık veziyete teslim edilmesi."
     },
     {
-        name: "Güneş Elektrik Stansia",
+        name: "GES (Güneş Elektrik Stansia)",
         imageUrl: activity3,
+        path: "/activity/ges-gunes-elektrik-stansiya",
+        description: "Güneş panellerinin kurulması, arazinin alt yapı hazırlığı, yollar ve panellerin deliklerin delinmesi, panellerin devreye alınması, çalışır vaziyetde teslim edilmesi."
     },
     {
-        name: "Boruların sahədə qaynaq işlərinin aparılması",
+        name: "Su kanalları",
         imageUrl: activity4,
+        path: "/activity/su-kanallari",
+        description: "Derelerin ıslahı, beton revizyon ve yeniden yapılması, kanalların temizliği."
     },
     {
-        name: "Beton işlərin görülməsi",
+        name: "Çelik constriction",
         imageUrl: activity5,
+        path: "/activity/celik-construction",
+        description: "Ambarların ve binaların endüstriyel fabrikalatda çelik ve boru işlerinin yapılması."
     },
 ];

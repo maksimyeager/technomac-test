@@ -3,33 +3,42 @@ import { FaArrowRight } from "react-icons/fa6";
 
 import { machines } from "../data/machines";
 
+import Banner from "../components/Banner";
+import bannerImg from "../assets/banners/machines.jpg";
+
 const Machines = () => {
     return (
-        <div className="cards">
-            <div className="container">
-                <div className="cards__wrapper">
-                    {machines.map((machine, index) => {
-                        return (
-                            <div key={index} className="card">
-                                <div className="card__ image">
-                                    <img
-                                        src={machine.imageUrl}
-                                        alt={machine.name}
-                                    />
-                                </div>
-                                <div className="card__info">
-                                    <h2>{machine.name}</h2>
+        <>
+            <Banner title={"Makinaparkı"} bgImage={bannerImg} />
+            <div className="cards">
+                <div className="container">
+                    <div className="cards__wrapper">
+                        {machines.map((machine, index) => {
+                            return (
+                                <div key={index} className="card">
+                                    <div className="card__ image">
+                                        <img
+                                            src={machine.imageUrl}
+                                            alt={machine.name}
+                                        />
+                                    </div>
+                                    <div className="card__info">
+                                        <h2>{machine.name}</h2>
 
-                                    <Link to={machine.path}>
-                                        <FaArrowRight color="#fff" size={20} />
-                                    </Link>
+                                        <Link to={machine.path}>
+                                            <FaArrowRight
+                                                color="#fff"
+                                                size={20}
+                                            />
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
-                        );
-                    })}
+                            );
+                        })}
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div>{" "}
+        </>
     );
 };
 

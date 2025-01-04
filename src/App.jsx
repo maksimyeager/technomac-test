@@ -11,6 +11,7 @@ import MachinePage from "./pages/MachinePage";
 import Projects from "./pages/Projects";
 import Activities from "./pages/Activities";
 import ContactUs from "./pages/ContactUs";
+import ActivityPage from "./pages/ActivitiPage";
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                     <Route path={"/"} element={<Home />} />
                     <Route path={"/about-us"} element={<AboutUs />} />
                     <Route path={"/activities"} element={<Activities />} />
+                    <Route path={"/activity/:activityName"} element={<ActivityPage />} />
                     <Route path={"/machines"} element={<Machines />} />
                     <Route path={"/machine/:machineName"} element={<MachinePage />} />
                     <Route path={"/projects"} element={<Projects />} />
