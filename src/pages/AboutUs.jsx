@@ -1,7 +1,9 @@
-import image from "../assets/image.png";
-import image2 from "../assets/image-2.png";
-import image3 from "../assets/image-3.png";
-import image5 from "../assets/image-5.png";
+import image from "../assets/about-us/about-us-1.jpg";
+import image2 from "../assets/about-us/about-us-2.jpg";
+import image3 from "../assets/about-us/about-us-3.png";
+import image4 from "../assets/about-us/about-us-4.png";
+import image5 from "../assets/about-us/about-us-5.png";
+import image6 from "../assets/about-us/about-us-6.png";
 
 import project3 from "../assets/projects/project-3.jpg";
 import project5 from "../assets/projects/project-5.jpg";
@@ -65,7 +67,7 @@ const AboutUs = () => {
                     <div className="container">
                         <div className="section__wrapper">
                             <div className="section__image">
-                                <img src={image} alt="Technomak mmc" />
+                                <img src={image6} alt="Technomak mmc" />
                             </div>
                             <div className="section__info">
                                 <h2 className="section__title">Missiyamız</h2>
@@ -144,7 +146,7 @@ const AboutUs = () => {
                     <div className="container">
                         <div className="section__wrapper">
                             <div className="section__image">
-                                <img src={image2} alt="Technomak mmc values" />
+                                <img src={image4} alt="Technomak mmc values" />
                             </div>
                             <div className="section__info">
                                 <h2 className="section__title">Değerlerimiz</h2>

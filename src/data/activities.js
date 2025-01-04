@@ -1,8 +1,9 @@
-import activity1 from "../assets/projects/project-1.jpg";
-import activity2 from "../assets/projects/project-2.jpg";
-import activity3 from "../assets/projects/project-3.jpg";
-import activity4 from "../assets/projects/project-5.jpg";
-import activity5 from "../assets/projects/project-6.jpg";
+import activity1 from "../assets/activities/activity-1.jpg";
+import activity2 from "../assets/activities/activity-2.jpg";
+import activity3 from "../assets/activities/activity-3.jpg";
+import activity4 from "../assets/activities/activity-4.jpg";
+import activity5 from "../assets/activities/activity-5.jpg";
+import activity6 from "../assets/activities/activity-6.jpg";
 
 export const activities = [
     {
@@ -19,25 +20,25 @@ export const activities = [
     },
     {
         name: `HES (Hidro Elektrik Stansiya)`,
-        imageUrl: activity1,
+        imageUrl: activity3,
         path: "/activity/hes-hidro-elektrik-stansiya",
         description: "Boru hattının hazırlanması, boruların beton işlerinin yapılması, otomosyon işlerinin görülüp devreye alınması. Çalışık veziyete teslim edilmesi."
     },
     {
         name: "GES (Güneş Elektrik Stansia)",
-        imageUrl: activity3,
+        imageUrl: activity4,
         path: "/activity/ges-gunes-elektrik-stansiya",
         description: "Güneş panellerinin kurulması, arazinin alt yapı hazırlığı, yollar ve panellerin deliklerin delinmesi, panellerin devreye alınması, çalışır vaziyetde teslim edilmesi."
     },
     {
         name: "Su kanalları",
-        imageUrl: activity4,
+        imageUrl: activity5,
         path: "/activity/su-kanallari",
         description: "Derelerin ıslahı, beton revizyon ve yeniden yapılması, kanalların temizliği."
     },
     {
         name: "Çelik constriction",
-        imageUrl: activity5,
+        imageUrl: activity6,
         path: "/activity/celik-construction",
         description: "Ambarların ve binaların endüstriyel fabrikalatda çelik ve boru işlerinin yapılması."
     },

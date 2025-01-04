@@ -12,7 +12,7 @@
             rgba(114, 24, 27, 0.488772) 69.81%,
             rgba(237, 50, 55, 0.6384) 94.64%
         ),
-        url("../assets/home-banner.jpg");
+        url("../assets/home-page/home-banner.jpg");
 
     .container {
         flex-grow: 1;
@@ -150,17 +150,17 @@
         padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 60px;
+        // margin-bottom: 60px;
     }
 
     &__block-wrapper-1 {
         background: linear-gradient(#211e1ed4, #211e1ed4),
-            url("../assets/mission.jpg");
+            url("../assets/home-page/mission.jpg");
         background-size: cover;
     }
     &__block-wrapper-2 {
         background: linear-gradient(#d12346a6, #d12346a6),
-            url("../assets/vision.jpg");
+            url("../assets/home-page/vision.jpg");
         background-size: cover;
     }
     &__block {

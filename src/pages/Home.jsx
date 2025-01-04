@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
-import weldingImg from "../assets/welding.png";
+import weldingImg from "../assets/home-page/welding.png";
 import grayEllipses from "../assets/gray-ellipses.png";
 import redEllipses from "../assets/red-ellipses.png";
 import black from "../assets/black.png";

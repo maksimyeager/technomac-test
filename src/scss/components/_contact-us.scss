@@ -81,6 +81,7 @@
         }
 
         &-block {
+            position: relative;
             width: 44px;
             height: 44px;
             display: flex;
@@ -88,6 +89,15 @@
             align-items: center;
             background-color: #ed3237;
             border-radius: 10px;
+
+            a{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+            }
 
             img {
                 transform: scale(0.8);

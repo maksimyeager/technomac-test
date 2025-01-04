@@ -66,12 +66,16 @@ const ContactUs = () => {
                             </div>
                             <div className="contact-us__socials-wrap">
                                 <div className="contact-us__socials-block">
+                                    <a href="https://www.instagram.com/" target="_blank"></a>
                                     <img src={instagramSvg} alt="" />
                                 </div>
                                 <div className="contact-us__socials-block">
+                                    <a href="https://www.facebook.com/" target="_blank"></a>
+
                                     <img src={facebookSvg} alt="" />
                                 </div>
                                 <div className="contact-us__socials-block">
+                                    <a href="https://www.linkedin.com/" target="_blank"></a>
                                     <img src={linkedinSvg} alt="" />
                                 </div>
                             </div>

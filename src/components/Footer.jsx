@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import logo from "../assets/logo.png";
+import {activities} from "../data/activities"
 
 const footerLinks = [
     { name: "Haqqımızda", path: "/about-us" },
@@ -9,27 +10,6 @@ const footerLinks = [
     { name: "Makinaparkı", path: "/machines" },
     // { name: "Projects", path: "/projects" },
     { name: "Əlaqə", path: "/contact-us" },
-];
-
-const servicesLink = [
-    {
-        name: "Tikinti sahəsinin hazırlanmas",
-    },
-    {
-        name: "Yol inşaatı",
-    },
-    {
-        name: "HES (Hidro Elektrik Stansiya)",
-    },
-    {
-        name: "GES (Güneş Elektrik Stansia)",
-    },
-    {
-        name: "Su kanalları",
-    },
-    {
-        name: "Çelik constriction",
-    },
 ];
 
 const Footer = () => {
@@ -64,10 +44,11 @@ const Footer = () => {
                     <div className="footer__block">
                         <h2 className="footer__block-title">Our services</h2>
                         <ul className="footer__list">
-                            {servicesLink.map((link, index) => {
+                            
+                            {activities.map((activity, index) => {
                                 return (
                                     <li key={index} className="footer__item">
-                                        <Link to={""}>{link.name}</Link>
+                                        <Link to={activity.path}>{activity.name}</Link>
                                     </li>
                                 );
                             })}
