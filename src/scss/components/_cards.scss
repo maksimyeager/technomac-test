@@ -5,11 +5,21 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 60px;
+
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     .card {
         box-shadow: 0px 0px 20.1px 0px #00000026;
         background-color: #fff;
+
+        &__image{
+            img{
+                width: 100%;
+            }
+        }
 
         &__info {
             display: flex;

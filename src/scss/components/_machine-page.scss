@@ -4,6 +4,11 @@
     .container {
         display: flex;
         gap: 60px;
+
+        @media (max-width: 576px) {
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
     }
 
     &__info {
@@ -16,7 +21,6 @@
         h2 {
             font-size: 28px;
             font-weight: 700;
-            line-height: 45.93px;
             text-align: left;
             text-underline-position: from-font;
             text-decoration-skip-ink: none;

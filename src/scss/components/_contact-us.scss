@@ -5,6 +5,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 60px;
+
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     &__form {
@@ -78,6 +82,10 @@
         &-wrap {
             display: flex;
             gap: 15px;
+
+            @media (max-width: 576px) {
+                justify-content: center;
+            }
         }
 
         &-block {
@@ -102,6 +110,10 @@
             img {
                 transform: scale(0.8);
             }
+        }
+
+        @media (max-width: 576px) {
+            text-align: center;
         }
     }
 }

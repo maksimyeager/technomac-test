@@ -3,6 +3,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (max-width: 576px) {
+        .section__image{
+            display: none !important;
+        }
+        .section__image-block{
+            display: none;
+        }
+    }
+
     &__image {
         flex: 1;
         position: relative;

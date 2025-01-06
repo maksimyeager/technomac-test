@@ -17,6 +17,10 @@
     &__menu {
         max-width: 700px;
         width: 100%;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
     }
 
     &__list {
@@ -25,6 +29,14 @@
 
         a {
             font-size: 18px;
+        }
+    }
+
+    .header__btn{
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
         }
     }
 }

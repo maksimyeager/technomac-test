@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import burgerSvg from "../assets/icons/burger.svg";
 import LanguageSelector from "./LanguageSelector";
 
 const headerLinks = [
@@ -32,6 +33,9 @@ const Header = () => {
                 </div>
                 <div className="header__actions">
                     <LanguageSelector/>
+                    <button className="header__btn">
+                        <img src={burgerSvg} alt="" />
+                    </button>
                 </div>
             </div>
         </header>

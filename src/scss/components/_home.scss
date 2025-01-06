@@ -70,12 +70,22 @@
         .container {
             display: flex;
             gap: 60px;
+
+            @media (max-width: 576px) {
+                flex-direction: column-reverse;
+            }
         }
 
         &__image {
             margin-left: 30px;
             position: relative;
             flex: 1;
+        }
+
+        .section__image-block {
+            @media (max-width: 576px) {
+                display: block !important;
+            }
         }
 
         &-info {
@@ -95,9 +105,10 @@
     .section__image-block {
         position: relative;
         width: max-content;
+        aspect-ratio: 8/10;
         .section--about-us-image__img {
             max-width: 420px;
-            height: 450px;
+            // height: 450px; tut ostanovilsya
             width: 100%;
             border-radius: 0px 60px 60px 60px;
             object-fit: cover;
@@ -139,7 +150,7 @@
             box-shadow: none;
             background-color: inherit;
 
-            &__info{
+            &__info {
                 padding-inline: 0;
                 background-color: inherit;
             }
@@ -150,6 +161,10 @@
         padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
+
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr;
+        }
         // margin-bottom: 60px;
     }
 
@@ -174,13 +189,13 @@
         color: #fff;
         height: 100%;
 
-        &-1{
-            padding-left: 210px;
-            padding-right: 150px;
+        &-1 {
+            // padding-left: 210px;
+            // padding-right: 150px;
         }
-        &-2{
-            padding-left: 100px;
-            padding-right: 210px;
+        &-2 {
+            // padding-left: 100px;
+            // padding-right: 210px;
         }
 
         &-title {

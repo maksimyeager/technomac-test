@@ -1,5 +1,3 @@
-import image from "../assets/about-us/about-us-1.jpg";
-import image2 from "../assets/about-us/about-us-2.jpg";
 import image3 from "../assets/about-us/about-us-3.png";
 import image4 from "../assets/about-us/about-us-4.png";
 import image5 from "../assets/about-us/about-us-5.png";

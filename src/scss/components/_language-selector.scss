@@ -1,6 +1,10 @@
 .language-selector {
     position: relative;
     display: inline-block;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .language-toggle {

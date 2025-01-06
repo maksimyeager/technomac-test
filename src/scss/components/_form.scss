@@ -9,7 +9,10 @@
         &--row {
             display: flex;
             gap: 30px;
-
+            
+            @media (max-width: 576px) {
+                flex-direction: column;
+            }
         }
 
         input,
@@ -41,6 +44,10 @@
         &:hover {
             background-color: #ed3237;
             transform: scale(1.1);
+        }
+
+        @media (max-width: 576px) {
+            margin: 15px auto 0;
         }
     }
 }
