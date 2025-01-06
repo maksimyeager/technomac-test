@@ -60,13 +60,13 @@ const Footer = () => {
                             <li className="footer__item">
                                 <Link to={""} className="footer__link">
                                     <FaPhoneAlt size={24} />
-                                    <span>+77 777 77 77</span>
+                                    <span>+994 50 250 44 91</span>
                                 </Link>
                             </li>
                             <li className="footer__item">
                                 <Link to={""} className="footer__link">
                                     <FaEnvelope size={24} />
-                                    <span>technomak@gmail.com</span>
+                                    <span>info@technomak.az</span>
                                 </Link>
                             </li>
                         </ul>
