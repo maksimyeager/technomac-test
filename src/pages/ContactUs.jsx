@@ -46,8 +46,8 @@ const ContactUs = () => {
                                     <img src={phoneSvg} alt="" />
                                 </div>
                                 <div className="contact-us__block-info">
-                                    <h2>Phone Number </h2>
-                                    <p>777 777 77 77</p>
+                                    <h2>Phone Number</h2>
+                                    <p>+994 50 250 44 91</p>
                                 </div>
                             </div>
                             <div className="contact-us__block">
@@ -56,7 +56,7 @@ const ContactUs = () => {
                                 </div>
                                 <div className="contact-us__block-info">
                                     <h2>E-mail</h2>
-                                    <p>technomak@gmail.com </p>
+                                    <p>info@technomak.az</p>
                                 </div>
                             </div>
                         </div>
