@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 
-import userHelmetSafetySvg from "../assets/icons/user-helmet-safety.svg";
 import { activities } from "../data/activities";
 import Banner from "../components/Banner";
 import bannerImg from "../assets/banners/activities.jpg";
@@ -25,7 +24,7 @@ const Activities = () => {
                                     </div>
                                     <div className="activity__info">
                                         <img
-                                            src={userHelmetSafetySvg}
+                                            src={activity.icon}
                                             alt="Icon"
                                             width={40}
                                         />

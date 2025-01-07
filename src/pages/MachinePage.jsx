@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { machines } from "../data/machines";
 
 const MachinePage = () => {
-    const {machineName} = useParams();
+    const { machineName } = useParams();
     const machine = machines.find((machine) =>
         machine.path.includes(machineName)
     );
@@ -27,6 +27,9 @@ const MachinePage = () => {
                 </div>
                 <div className="machine__img">
                     <img src={machine.imageUrl} alt="" />
+                </div>
+                <div className="machine__title">
+                    <h2>{machine.name}</h2>
                 </div>
             </div>
         </div>

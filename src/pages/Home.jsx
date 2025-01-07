@@ -87,7 +87,7 @@ const Home = () => {
                                         <div className="card__info">
                                             <h2>{activity.name}</h2>
 
-                                            <Link to={activity.path}>
+                                            <Link to={activity.path} className="card__link">
                                                 <FaArrowRight
                                                     color="#fff"
                                                     size={20}
@@ -101,31 +101,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            {/* <section className="section section--projects">
-                <div className="container">
-                    <p className="section__subtitle">Quis autem vel eum</p>
-                    <h2 className="section__title">Our Projects</h2>
-                    <div className="projects">
-                        <div className="projects__wrapper">
-                            {projects.map((project, index) => {
-                                return (
-                                    <div key={index} className="project">
-                                        <div className="project__image">
-                                            <img
-                                                src={project.imageUrl}
-                                                alt={project.name}
-                                            />
-                                        </div>
-                                        <div className="project__description">
-                                            {project.description}
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <section className="section section--info">
                 <div className="section__block-wrapper section__block-wrapper-1">
                     <div className="section__block section__block-1">

@@ -15,24 +15,26 @@ const Machines = () => {
                     <div className="cards__wrapper">
                         {machines.map((machine, index) => {
                             return (
-                                <div key={index} className="card">
-                                    <div className="card__ image">
-                                        <img
-                                            src={machine.imageUrl}
-                                            alt={machine.name}
-                                        />
-                                    </div>
-                                    <div className="card__info">
-                                        <h2>{machine.name}</h2>
-
-                                        <Link to={machine.path}>
-                                            <FaArrowRight
-                                                color="#fff"
-                                                size={20}
+                                <Link key={index} to={machine.path}>
+                                    <div className="card">
+                                        <div className="card__ image">
+                                            <img
+                                                src={machine.imageUrl}
+                                                alt={machine.name}
                                             />
-                                        </Link>
+                                        </div>
+                                        <div className="card__info">
+                                            <h2>{machine.name}</h2>
+
+                                            <Link to={machine.path} className="card__link">
+                                                <FaArrowRight
+                                                    color="#fff"
+                                                    size={20}
+                                                />
+                                            </Link>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             );
                         })}
                     </div>

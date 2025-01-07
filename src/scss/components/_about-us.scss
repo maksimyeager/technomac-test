@@ -3,11 +3,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    img.black {
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        z-index: -1;
+        width: 200px;
+        height: 200px;
+    }
+
+    img.red-ellipses {
+        position: absolute;
+        width: 65px;
+        bottom: 12px;
+        right: -48px;
+        z-index: -1;
+    }
+
     @media (max-width: 576px) {
-        .section__image{
+        .section__image {
             display: none !important;
         }
-        .section__image-block{
+        .section__image-block {
             display: none;
         }
     }
@@ -27,7 +44,7 @@
     }
 
     &--1 {
-        .section__image-block{
+        .section__image-block {
             margin-top: 30px;
             margin-left: 60px;
         }
@@ -97,7 +114,8 @@
             width: 200px;
             height: 245px;
             top: inherit;
-            bottom: 0px;
+            bottom: 20px;
+
             left: -0px;
         }
     }
@@ -106,6 +124,10 @@
         .section__image {
             display: flex;
             justify-content: flex-end;
+        }
+
+        .section__image-block {
+            margin-top: 20px;
         }
 
         .section--img {
