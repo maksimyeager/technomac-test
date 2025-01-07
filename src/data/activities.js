@@ -20,6 +20,13 @@ export const activities = [
         path: "/activity/tikinti-sahesinin-hazirlanmasi",
         description:
             "Fabrika sahasının alt yapısı, kanalizasyon hattının çekilmesi, çevre derlenmesi. Bina temel kazısı ve hafriyatı. Bütün toprak ve alt yapı işleri.",
+        list: [
+            "Fabrika sahasının alt yapısı",
+            "Kanalizasyon hattının çekilmesi",
+            "Cevre derlenmesi",
+            "Bina temel kazısı ve hafriyatı",
+            "Bütün toprak ve alt yapı işleri",
+        ],
     },
     {
         name: "Yol inşaatı",

@@ -10,7 +10,7 @@ import Machines from "./pages/Machines";
 import MachinePage from "./pages/MachinePage";
 import Activities from "./pages/Activities";
 import ContactUs from "./pages/ContactUs";
-import ActivityPage from "./pages/ActivitiPage";
+import ActivityPage from "./pages/ActivityPage";
 
 const App = () => {
     return (

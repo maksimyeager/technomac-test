@@ -8,9 +8,9 @@ const MachinePage = () => {
     );
     console.log(machine);
     return (
-        <div className="machine">
+        <div className="page">
             <div className="container">
-                <div className="machine__info">
+                <div className="page__info">
                     <h2>{machine.name}</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -25,10 +25,10 @@ const MachinePage = () => {
                     </p>
                     <button className="link link-1">Rent</button>
                 </div>
-                <div className="machine__img">
+                <div className="page__img">
                     <img src={machine.imageUrl} alt="" />
                 </div>
-                <div className="machine__title">
+                <div className="page__title">
                     <h2>{machine.name}</h2>
                 </div>
             </div>
