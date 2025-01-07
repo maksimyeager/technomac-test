@@ -79,6 +79,7 @@
         font-size: 14px;
 
         a {
+            text-decoration: underline;
             transition: all 0.3s ease;
             &:hover {
                 color: #ed3237;
