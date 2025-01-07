@@ -78,12 +78,21 @@
 
     .section-activity {
         padding: 60px 0;
-        h2{
+        h2 {
             font-size: 28px;
+
+            @media (max-width: 576px) {
+                text-align: center;
+            }
         }
 
         .section__wrapper {
             display: flex;
+
+            @media (max-width: 576px) {
+                flex-direction: column-reverse;
+                gap: 30px;
+            }
         }
 
         .section__wrapper {
@@ -102,6 +111,10 @@
         backdrop-filter: blur(15px);
         .section__wrapper {
             flex-direction: row-reverse;
+
+            @media (max-width: 576px) {
+                flex-direction: column-reverse;
+            }
         }
 
         h2 {
