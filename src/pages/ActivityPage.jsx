@@ -1,5 +1,15 @@
 import { useParams } from "react-router-dom";
 import { activities } from "../data/activities";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
+import { Autoplay } from "swiper/modules";
+import activity1 from "../assets/activities/activity-1.jpg";
+import activity2 from "../assets/activities/activity-2.jpg";
+import activity3 from "../assets/activities/activity-3.jpg";
+import activity4 from "../assets/activities/activity-4.jpg";
 
 const ActivityPage = () => {
     const { activityName } = useParams();
@@ -52,6 +62,42 @@ const ActivityPage = () => {
                         </div>
                     );
                 })}
+            </div>
+            <div className="banner">
+                <Swiper
+                    className="banner-swiper"
+                    spaceBetween={30}
+                    slidesPerView={3}
+                    loop={true}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    modules={[Autoplay]}
+                    breakpoints={{
+                    }}
+                >
+                    <SwiperSlide>
+                        <Link to="/products/thermona">
+                            <img src={activity1} alt="Banner 1" />
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Link to="/products/kas-mehsullari">
+                            <img src={activity2} alt="Banner 2" />
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Link to="/products/warmhaus">
+                            <img src={activity3} alt="Banner 3" />
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Link to="/products/warmhaus">
+                            <img src={activity4} alt="Banner 4" />
+                        </Link>
+                    </SwiperSlide>
+                </Swiper>
             </div>
         </div>
     );

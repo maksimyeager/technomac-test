@@ -91,3 +91,15 @@ a.link-3 {
 a.link-3:hover svg {
     color: #000;
 }
+
+.banner{
+    padding: 0 15px;
+}
+.banner-swiper {
+    .swiper-slide img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px; /* Для закругленных краев, если нужно */
+    }
+}
