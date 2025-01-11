@@ -23,9 +23,7 @@ const Home = () => {
                             Hizmeti Sunuyoruz
                         </h1>
                         <p className="home-info">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            <br /> elit, sed do eiusmod tempor incididunt ut
-                            labore et <br /> dolore magna aliqua.
+                            {/* Deacription */}
                         </p>
                     </div>
                 </div>
