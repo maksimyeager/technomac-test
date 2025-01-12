@@ -16,15 +16,13 @@ const Home = () => {
                 <div className="container">
                     <div className="home-banner__info">
                         <p className="home-subtitle">
-                            Technomaka Hoş Geldiniz!
+                            Technomak’a Hoş Geldiniz!
                         </p>
                         <h1 className="home-title">
                             Sektörde En iyi <br />
                             Hizmeti Sunuyoruz
                         </h1>
-                        <p className="home-info">
-                            {/* Deacription */}
-                        </p>
+                        <p className="home-info">{/* Deacription */}</p>
                     </div>
                 </div>
             </div>
@@ -47,22 +45,22 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="section--about-us-info">
-                        <p className="section__subtitle">Quis autem vel eum</p>
+                        {/* <p className="section__subtitle">Quis autem vel eum</p> */}
                         <h2 className="section__title">Hakkımızda</h2>
                         <p>
                             Bizler yılların birikimini ülkemize kazandırmak ve
-                            ülkemize bir fayda sağlamak maksadı is makinalari
-                            kiralama ve inşaat isleri ile ilgili olarakTechnomak
-                            mmc olarak Azerbaycanda kurulmustur.
+                            ülkemize bir fayda sağlamak maksadı iş makinaları
+                            kiralama ve inşaat  işleri  ile ilgili Technomak MMC
+                            olarak Azerbaycanda kurulmuştur.
                         </p>
                         <p>
-                            Technomak mmc olarak yıllardır sürekliliğini en iyi
+                            Technomak MMC olarak yıllardır sürekliliğini en iyi
                             şekilde devam ettiren, vizyon ve misyonlarından ödün
                             vermeden büyük bir özveriyle başarılarını günümüze
                             kadar getirmiştir.
                         </p>
                         <Link to={"/about-us"} className="link link-1">
-                            <span>Ətrəflı</span>
+                            <span>Daha fazla</span>
                             <FaArrowRight color="#fff" size={20} />
                         </Link>
                     </div>
@@ -70,7 +68,7 @@ const Home = () => {
             </section>
             <section className="section section--activities">
                 <div className="container">
-                    <h2 className="section__title">Fəaliyyətlərimiz</h2>
+                    <h2 className="section__title">Faaliyet Alanlarımız</h2>
                     <div className="cards">
                         <div className="cards__wrapper">
                             {activities.map((activity, index) => {
@@ -85,7 +83,10 @@ const Home = () => {
                                         <div className="card__info">
                                             <h2>{activity.name}</h2>
 
-                                            <Link to={activity.path} className="card__link">
+                                            <Link
+                                                to={activity.path}
+                                                className="card__link"
+                                            >
                                                 <FaArrowRight
                                                     color="#fff"
                                                     size={20}
@@ -102,31 +103,37 @@ const Home = () => {
             <section className="section section--info">
                 <div className="section__block-wrapper section__block-wrapper-1">
                     <div className="section__block section__block-1">
-                        <h2 className="section__block-title">Missiyamız</h2>
-                        <div className="section__block-description">
-                            Technomak mmc olarak kaliteli tasarımları
-                            ulaşılabilir fiyatlarla sunmak, müşterilerimizin ...
+                        <div className="container">
+                            <h2 className="section__block-title">Misyonumuz</h2>
+                            <div className="section__block-description">
+                                Technomak mmc olarak kaliteli tasarımları
+                                ulaşılabilir fiyatlarla sunmak, müşterilerimizin
+                                ...
+                            </div>
+                            <Link to={"/about-us"} className="link link-2">
+                                <span>Daha fazla</span>
+                                <FaArrowRight size={20} />
+                            </Link>
                         </div>
-                        <Link to={"/about-us"} className="link link-2">
-                            <span>Ətrəflı</span>
-                            <FaArrowRight size={20} />
-                        </Link>
                     </div>
                 </div>
                 <div className="section__block-wrapper section__block-wrapper-2">
                     <div className="section__block section__block-2">
-                        <h2 className="section__block-title">Vizyonumuz</h2>
-                        <div className="section__block-description">
-                            Müşteri ve çalışanlarına artı değer sağlayan,
-                            kaliteli ürün ve hizmetleri ile geniş kitlelere
-                            erişen, toplumsal sorumluluğunun bilincinde,
-                            değerlerine sadık, güvenilirliği, kalite yönetimi,
-                            ürün ve hizmet çeşitliliğinde öncülüğü...
+                        <div className="container">
+                            <h2 className="section__block-title">Vizyonumuz</h2>
+                            <div className="section__block-description">
+                                Müşteri ve çalışanlarına artı değer sağlayan,
+                                kaliteli ürün ve hizmetleri ile geniş kitlelere
+                                erişen, toplumsal sorumluluğunun bilincinde,
+                                değerlerine sadık, güvenilirliği, kalite
+                                yönetimi, ürün ve hizmet çeşitliliğinde
+                                öncülüğü...
+                            </div>
+                            <Link to={"/about-us"} className="link link-3">
+                                <span>Daha fazla</span>
+                                <FaArrowRight size={20} />
+                            </Link>
                         </div>
-                        <Link to={"/about-us"} className="link link-3">
-                            <span>Ətrəflı</span>
-                            <FaArrowRight size={20} />
-                        </Link>
                     </div>
                 </div>
             </section>

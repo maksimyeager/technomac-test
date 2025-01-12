@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
+import MobileLanguageSelctor from "./MobileLanguageSelector";
 
 const mobileNavbarLinks = [
-    { name: "Haqqımızda", path: "/about-us" },
-    { name: "Fəaliyyətlərimiz", path: "/activities" },
-    { name: "Makinaparkı", path: "/machines" },
-    { name: "Əlaqə", path: "/contact-us" },
+    { name: "Hakkımızda", path: "/about-us" },
+    { name: "Faaliyet Alanlarımız", path: "/activities" },
+    { name: "Makina Parkı", path: "/machines" },
+    { name: "İletişim", path: "/contact-us" },
 ];
 
 // eslint-disable-next-line react/prop-types
@@ -51,6 +52,8 @@ const MobileNavbar = ({ open, onClose }) => {
                         );
                     })}
                 </ul>
+
+                <MobileLanguageSelctor />
             </div>
         </>
     );

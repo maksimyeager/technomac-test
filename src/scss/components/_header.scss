@@ -3,6 +3,7 @@
     top: 0;
     width: 100%;
     background-color: #fff;
+    box-shadow: 0px 3px 29.4px 0px #00000052;
     padding: 15px 0;
     z-index: 90;
 
@@ -10,7 +11,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 60px;
+        gap: clamp(1.875rem, -3.75rem + 11.719vw, 3.75rem);
     }
 
     &__logo {
@@ -20,10 +21,10 @@
     }
 
     &__menu {
-        max-width: 700px;
+        max-width: clamp(31.25rem, -18.995rem + 98.039vw, 43.75rem);
         width: 100%;
 
-        @media (max-width: 768px) {
+        @media (max-width: 820px) {
             display: none;
         }
     }
@@ -40,7 +41,7 @@
     .header__btn{
         display: none;
 
-        @media (max-width: 768px) {
+        @media (max-width: 820px) {
             display: block;
         }
     }

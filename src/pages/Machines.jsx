@@ -9,7 +9,7 @@ import bannerImg from "../assets/banners/machines.jpg";
 const Machines = () => {
     return (
         <>
-            <Banner title={"Makinaparkı"} bgImage={bannerImg} />
+            <Banner title={"Makina Parkı"} bgImage={bannerImg} />
             <div className="cards">
                 <div className="container">
                     <div className="cards__wrapper">

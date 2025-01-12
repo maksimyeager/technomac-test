@@ -124,7 +124,7 @@
 
         a.link {
             margin-top: 30px;
-            @media screen {
+            @media (max-width: 576px) {
                 margin: 30px auto 0;
             }
         }
@@ -177,6 +177,7 @@
         position: relative;
         width: max-content;
         max-width: 420px;
+        height: max-content;
         .section--about-us-image__img {
             height: 100%;
             width: 100%;
@@ -223,7 +224,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
 
-        @media (max-width: 576px) {
+        @media (max-width: 768px) {
             grid-template-columns: 1fr;
         }
         // margin-bottom: 60px;
@@ -242,28 +243,29 @@
     &__block {
         backdrop-filter: blur(5px);
         position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 30px;
         padding-block: 100px;
         color: #fff;
         height: 100%;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
 
         &-1 {
-            // padding-left: 210px;
-            // padding-right: 150px;
+            padding-left: 25%;
+            padding-right: 100px;
 
-            @media (max-width: 576px) {
-                padding-inline: 15px;
+            @media (max-width: 1024px) {
+                padding-inline: 0;
             }
         }
         &-2 {
-            // padding-left: 100px;
-            // padding-right: 210px;
-
-            @media (max-width: 576px) {
-                padding-inline: 15px;
+            padding-left: 25%;
+            padding-right: 100px;
+            @media (max-width: 1024px) {
+                padding-inline: 0;
             }
         }
 
@@ -276,10 +278,10 @@
             &::after {
                 content: "";
                 position: absolute;
-                bottom: 0;
+                bottom: -5px;
                 left: 0;
                 width: 70px;
-                height: 3px;
+                height: 2px;
                 background-color: #fff;
             }
         }

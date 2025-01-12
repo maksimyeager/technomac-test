@@ -8,7 +8,7 @@ import bannerImg from "../assets/banners/activities.jpg";
 const Activities = () => {
     return (
         <>
-            <Banner title={"Fəaliyyətlərimiz"} bgImage={bannerImg} />
+            <Banner title={"Faaliyet Alanlarımız"} bgImage={bannerImg} />
 
             <div className="activities">
                 <div className="container">
@@ -33,7 +33,7 @@ const Activities = () => {
                                             to={activity.path}
                                             className="link link-1"
                                         >
-                                            <span>Ətrəflı</span>
+                                            <span>Daha fazla</span>
                                             <FaArrowRight
                                                 color="#fff"
                                                 size={20}

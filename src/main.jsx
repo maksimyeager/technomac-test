@@ -7,12 +7,16 @@ import i18next from "i18next";
 import global_az from "./translation/az/global.json";
 import global_en from "./translation/en/global.json";
 import global_ru from "./translation/ru/global.json";
+import global_tr from "./translation/tr/global.json";
 import { I18nextProvider } from "react-i18next";
 
 i18next.init({
     interpolation: { escapeValue: false },
     lng: localStorage.getItem("lng") || "ru",
     resources: {
+        tr: {
+            global: global_tr,
+        },
         az: {
             global: global_az,
         },

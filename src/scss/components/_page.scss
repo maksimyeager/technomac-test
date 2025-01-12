@@ -76,58 +76,16 @@
         flex: 1;
     }
 
-    .section-activity {
-        padding: 60px 0;
-        h2 {
-            font-size: 28px;
+    &__images{
+        margin-top: 60px;
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
 
             @media (max-width: 576px) {
-                text-align: center;
+                grid-template-columns: 1fr;
             }
         }
-
-        .section__wrapper {
-            display: flex;
-
-            @media (max-width: 576px) {
-                flex-direction: column-reverse;
-                gap: 30px;
-            }
-        }
-
-        .section__wrapper {
-            .section__image {
-                flex: 1;
-            }
-        }
-    }
-
-    .section-activity-1 {
-        h2 {
-            color: #000;
-        }
-    }
-    .section-activity-2 {
-        backdrop-filter: blur(15px);
-        .section__wrapper {
-            flex-direction: row-reverse;
-
-            @media (max-width: 576px) {
-                flex-direction: column-reverse;
-            }
-        }
-
-        h2 {
-            color: #fff;
-        }
-    }
-
-    .section--activity__wrapper-2 {
-        background-image: linear-gradient(
-                102.82deg,
-                rgba(127, 0, 4, 0.5964) 14.01%,
-                rgba(0, 0, 0, 0.71) 67.95%
-            ),
-            url("../assets/about-us/about-us-1.jpg");
     }
 }

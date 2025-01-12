@@ -6,10 +6,10 @@ import MobileNavbar from "./MobileNavbar";
 import { useState } from "react";
 
 const headerLinks = [
-    { name: "Haqqımızda", path: "/about-us" },
-    { name: "Fəaliyyətlərimiz", path: "/activities" },
-    { name: "Makinaparkı", path: "/machines" },
-    { name: "Əlaqə", path: "/contact-us" },
+    { name: "Hakkımızda", path: "/about-us" },
+    { name: "Faaliyet Alanlarımız", path: "/activities" },
+    { name: "Makina Parkı", path: "/machines" },
+    { name: "İletişim", path: "/contact-us" },
 ];
 
 const Header = () => {

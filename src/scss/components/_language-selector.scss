@@ -2,7 +2,7 @@
     position: relative;
     display: inline-block;
 
-    @media (max-width: 768px) {
+    @media (max-width: 820px) {
         display: none;
     }
 }
@@ -22,7 +22,7 @@
 .language-menu {
     position: absolute;
     top: 100%;
-    right: 50%;
+    right: 100%;
     transform: translate(50%, 0%);
     text-align: center;
     background-color: white;
@@ -44,4 +44,44 @@
 
 .language-menu li:hover {
     background-color: #f1f1f1;
+}
+
+.mobile-language-selector {
+    padding: 0 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+
+    ul {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    li {
+        font-size: 22px;
+        font-weight: 500;
+        position: relative;
+
+        &::after {
+            content: ""; /* Символ палочки */
+            position: absolute;
+            height: 30px;
+            width: 3px;
+            right: -100%; 
+            transform: translate(-100%, 0%);
+            background-color: #ccc; 
+        }
+
+        &:last-child::after {
+            content: none; 
+        }
+    }
+
+    li.active {
+        font-weight: 700;
+    }
 }

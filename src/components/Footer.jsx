@@ -2,14 +2,13 @@ import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import logo from "../assets/logo.png";
-import {activities} from "../data/activities"
+import { activities } from "../data/activities";
 
 const footerLinks = [
-    { name: "Haqqımızda", path: "/about-us" },
-    { name: "Fəaliyyətlərimiz", path: "/activities" },
-    { name: "Makinaparkı", path: "/machines" },
-    // { name: "Projects", path: "/projects" },
-    { name: "Əlaqə", path: "/contact-us" },
+    { name: "Hakkımızda", path: "/about-us" },
+    { name: "Faaliyet Alanlarımız", path: "/activities" },
+    { name: "Makina Parkı", path: "/machines" },
+    { name: "İletişim", path: "/contact-us" },
 ];
 
 const Footer = () => {
@@ -23,14 +22,9 @@ const Footer = () => {
                                 <img src={logo} alt="" />
                             </Link>
                         </div>
-                        <div className="footer__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </div>
                     </div>
                     <div className="footer__block">
-                        <h2 className="footer__block-title">Our Links</h2>
+                        <h2 className="footer__block-title">Sahifalar</h2>
                         <ul className="footer__list">
                             {footerLinks.map((link, index) => {
                                 return (
@@ -42,32 +36,35 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer__block">
-                        <h2 className="footer__block-title">Our services</h2>
+                        <h2 className="footer__block-title">
+                            Faaliyet Alanlarımız
+                        </h2>
                         <ul className="footer__list">
-                            
                             {activities.map((activity, index) => {
                                 return (
                                     <li key={index} className="footer__item">
-                                        <Link to={activity.path}>{activity.name}</Link>
+                                        <Link to={activity.path}>
+                                            {activity.name}
+                                        </Link>
                                     </li>
                                 );
                             })}
                         </ul>
                     </div>
                     <div className="footer__block">
-                        <h2 className="footer__block-title">Contact Us</h2>
+                        <h2 className="footer__block-title">İletişim</h2>
                         <ul className="footer__list">
-                            <li className="footer__item">
-                                <Link to={""} className="footer__link">
-                                    <FaPhoneAlt size={24} />
-                                    <span>+994 50 250 44 91</span>
-                                </Link>
+                            <li className="footer__item footer__item--contact-us">
+                                <FaPhoneAlt size={24} />
+                                <div>
+                                    <p>+994 (50) 230 03 15</p>
+                                    <p>+994 (50) 250 44 91</p>
+                                    <p>+994 (12) 409 85 99</p>
+                                </div>
                             </li>
-                            <li className="footer__item">
-                                <Link to={""} className="footer__link">
-                                    <FaEnvelope size={24} />
-                                    <span>info@technomak.az</span>
-                                </Link>
+                            <li className="footer__item  footer__item--contact-us">
+                                <FaEnvelope size={24} />
+                                <p>info@technomak.az</p>
                             </li>
                         </ul>
                     </div>
