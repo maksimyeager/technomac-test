@@ -1,7 +1,11 @@
 import { useParams } from "react-router-dom";
-import { machines } from "../data/machines";
+import { getMachines } from "../data/machines";
+import { useTranslation } from "react-i18next";
 
 const MachinePage = () => {
+    const { t } = useTranslation("global");
+
+    const machines = getMachines(t);
     const { machineName } = useParams();
     const machine = machines.find((machine) =>
         machine.path.includes(machineName)

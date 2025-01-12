@@ -1,1 +1,83 @@
-[]
+{
+    "navbar": {
+        "about-us": "Hakkımızda",
+        "services": "Faaliyet Alanlarımız",
+        "machinery": "Makina Parkı",
+        "contact-us": "İletişim"
+    },
+    "mobile-navbar": {
+        "about-us": "Hakkımızda",
+        "services": "Faaliyet Alanlarımız",
+        "machinery": "Makina Parkı",
+        "contact-us": "İletişim"
+    },
+    "footer": {
+        "about-us": "Hakkımızda",
+        "services": "Faaliyet Alanlarımız",
+        "machinery": "Makina Parkı",
+        "contact-us": "İletişim",
+        "pages": "Səhifələr"
+    },
+    "home-banner": {
+        "subtitle": "Technomak’a Hoş Geldiniz!",
+        "title": "Sektörde En iyi Hizmeti Sunuyoruz"
+    },
+    "home": {
+        "about-us-title": "Hakkımızda",
+        "about-us-desc-1": "Bizler yılların birikimini ülkemize kazandırmak ve ülkemize bir fayda sağlamak maksadı is makinalari kiralama ve inşaat  isleri  ile ilgili Technomak MMC olarak Azerbaycanda kurulmustur.",
+        "about-us-desc-2": "Technomak MMC olarak yıllardır sürekliliğini en iyi şekilde devam ettiren, vizyon ve misyonlarından ödün vermeden büyük bir özveriyle başarılarını günümüze kadar getirmiştir.",
+        "services": "Faaliyet Alanlarımız",
+        "section-info-mission": "Misyonumuz",
+        "section-info-mission-desc": "Technomak MMC olarak kaliteli tasarımları ulaşılabilir fiyatlarla sunmak, müşterilerimizin... ",
+        "section-info-vision": "Vizyonumuz",
+        "section-info-vision-desc": "Müşteri ve çalışanlarına artı değer sağlayan, kaliteli ürün ve hizmetleri ile geniş kitlelere erişen, toplumsal sorumluluğunun bilincinde, değerlerine sadık, güvenilirliği, kalite yönetimi, ürün ve hizmet çeşitliliğinde öncülüğü...",
+        "button": "Daha fazla"
+    },
+    "about-us": {
+        "subtitle": "Technomak’a Hoş Geldiniz!",
+        "title": "Hakkımızda",
+        "desc-1": "Bizler yılların birikimini ülkemize kazandırmak ve ülkemize bir fayda sağlamak maksadı is makinalari kiralama ve inşaat  isleri  ile ilgili Technomak MMC olarak Azerbaycanda kurulmustur.",
+        "desc-2": "Technomak MMC olarak yıllardır sürekliliğini en iyi şekilde devam ettiren, vizyon ve misyonlarından ödün vermeden büyük bir özveriyle başarılarını günümüze kadar getirmiştir.",
+        "mission": "Misyonumuz",
+        "mission-desc": "Technomak MMC olarak kaliteli tasarımları ulaşılabilir fiyatlarla sunmak, müşterilerimizin beklentilerine en uygun çözümleri üreterek memnuniyetlerini en üst seviyede tutmak, taahhüdümüz altında olan proje teslimlerini zamanında ve standartlara uygun tamamlamak, tedarikçileri kalite sisteminin bütünü içerisinde değerlendirip hep birlikte sürekli iyileştirmeyi amaçlamak, teknolojik gelişmeleri takip etmek ve uygulamak, iş güvenliği konusunu birinci dereceden önemli kılmak ve geliştirmek, mümkün olduğu ölçüde çevre dostu yapı malzemelerini kullanmak, uygulamak ve çevreye saygılı olmak misyonumuzdur.",
+        "vision": "Vizyonumuz",
+        "vision-desc": "Müşteri ve çalışanlarına artı değer sağlayan, kaliteli ürün ve hizmetleri ile geniş kitlelere erişen, toplumsal sorumluluğunun bilincinde, değerlerine sadık, güvenilirliği, kalite yönetimi, ürün ve hizmet çeşitliliğinde öncülüğü, uzman personeli ve müşteri odaklı hizmet anlayışıyla ilk akla gelen ve tercih edilen kurum olmak. Geçmişimizden aldığımız mirasımızı, bilgi ve deneyimimizi, güçlü işbirlikleri, nitelikli insan kaynakları ve yenilikçi yaklaşımlar ile birleştirmek. Azerbaycanda güvenilir yapılar oluşturan ve kaliteli yaşam alanları geliştiren şirketlerden biri olmak. Değişen müşteri beklentilerine hızlı bir şekilde cevap verebilmek için sürekli iyileştirme faaliyetlerini etkin olarak sürdürmek. Kaliteli hizmet sunmak amacıyla her zaman sektörel alandaki teknolojileri yakından takip etmek.",
+        "values": "Değerlerimiz",
+        "values-desc": "Gerçekleştirdiğimiz her aktivitenin temelinde, tanımlanmış şirket değerlerimiz yatar. Üstlendiğimiz projelerde, bu değerlerin göz ardı edilmemesi gerektiğini bilir ve buna göre çalışırız. Değerlerimize bağlı çalıştığımızda, hizmet sağladığımız sektörde, daha fazla başarıya ulaşacağımızı biliriz.",
+        "policy": "Şirket Politikamız",
+        "policy-desc": ""
+    },
+    "services": {
+        "ges": "GES (Güneş Elektrik Santrali)",
+        "res": "RES (Rüzgar Enerji Santrali)",
+        "hes": "HES (Hidro Elektrik Santrali)",
+        "foundation": "ALTYAPI İNŞAAT",
+        "steel": "ÇELİK CONSTRUCTION"
+    },
+    "machinery": {
+        "greyder": "Greyder",
+        "katok": "Silindir",
+        "manipulyator": "Hiyap",
+        "ekskavator": "Eskavator",
+        "buldozer": "Buldozer",
+        "teleskopik-forklift": "Teleskopik forklift",
+        "yanacaq-mashini": "Yakıt arabası",
+        "kran": "Vinç",
+        "generator": "Jenarator",
+        "konteyner": "Konteyner",
+        "manlift": "Manlift",
+        "sicissor-lift": "Scissor lift",
+        "forklift": "Forklift"
+    },
+    "contact-us": {
+        "title": "Bizimle İletişime Geçebilirsiniz",
+        "numbers": "Numaralar",
+        "subscribe": "BBizi takip edin:"
+    },
+    "form": {
+        "name": "Adınız",
+        "phone-number": "Telefon Nömrəsi",
+        "message": "Mesajınızı daxil edin",
+        "button": "Göndər"
+    }
+}

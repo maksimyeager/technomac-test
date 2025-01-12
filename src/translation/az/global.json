@@ -1,1 +1,83 @@
-[]
+{
+    "navbar": {
+        "about-us": "Haqqımızda",
+        "services": "Fəaliyyətlərimiz",
+        "machinery": "Avtopark",
+        "contact-us": "Əlaqə"
+    },
+    "mobile-navbar": {
+        "about-us": "Haqqımızda",
+        "services": "Fəaliyyətlərimiz",
+        "machinery": "Avtopark",
+        "contact-us": "Əlaqə"
+    },
+    "footer": {
+        "about-us": "Haqqımızda",
+        "services": "Fəaliyyətlərimiz",
+        "machinery": "Avtopark",
+        "contact-us": "Əlaqə",
+        "pages": "Səhifələr"
+    },
+    "home-banner": {
+        "subtitle": "Technomak-a Xoş Gəlmisiz!",
+        "title": "Öz Sahəmiz Üzrə Ən Yaxşı Xidməti Təklif Edirik"
+    },
+    "home": {
+        "about-us-title": "Haqqımızda ",
+        "about-us-desc-1": "Biz Azərbaycanda tikinti texnikasının icarəsi və tikinti işləri ilə məşğul olan Technomak MMC kimi təsis olunmuşuq ki, ölkəmizə çoxillik təcrübə və fayda gətirək.",
+        "about-us-desc-2": "İllər boyu davamlılığını ən yaxşı şəkildə qoruyan Technomak MMC, missiyalarından vaz keçmədən nailiyyətlərini bu günə qədər böyük fədakarlıqla gətirdi.",
+        "services": "Fəaliyyətlərimiz",
+        "section-info-mission": "Missiyamız",
+        "section-info-mission-desc": "Technomak MMC olaraq biz sərfəli qiymətlərlə keyfiyyətli layihələr təklif edirik...",
+        "section-info-vision": "Vizyonumuz",
+        "section-info-vision-desc": "Vizyonumuz ondan ibarətdir ki, müştərilərə və işçilərə artıq dəyər vermək, keyfiyyətli məhsul və xidmətlər vasitəsilə geniş auditoriyaya müraciət etmək...",
+        "button": "Ətraflı"
+    },
+    "about-us": {
+        "subtitle": "Technomak-a Xoş Gəlmisiz!",
+        "title": "Haqqımızda ",
+        "desc-1": "Biz Azərbaycanda tikinti texnikasının icarəsi və tikinti işləri ilə məşğul olan Technomak MMC kimi təsis olunmuşuq ki, ölkəmizə çoxillik təcrübə və fayda gətirək.",
+        "desc-2": " İllər boyu davamlılığını ən yaxşı şəkildə qoruyan Technomak MMC, missiyalarından vaz keçmədən nailiyyətlərini bu günə qədər böyük fədakarlıqla gətirdi.",
+        "mission": "Missiyamız",
+        "mission-desc": "Technomak MMC olaraq biz sərfəli qiymətlərlə keyfiyyətli layihələr təklif edirik, müştərilərimizin gözləntilərinə ən yaxşı cavab verən həllər istehsal edirik, onların məmnuniyyətini ən yüksək səviyyədə saxlayırıq, qarşımıza qoyduğumuz layihələri vaxtında və standartlara uyğun yerinə yetiririk, tədarükçüləri bütün keyfiyyət sistemi çərçivəsində qiymətləndiririk və daim təkmilləşdirməyə çalışırıq, texnoloji nailiyyətləri izləyirik və tətbiq edirik, əməyin təhlükəsizliyi məsələsini prioritet hala gətiririk və mümkün olduqda onu təkmilləşdiririk. Missiyamız ətraf mühiti tətbiq etmək və hörmət etməkdir.",
+        "vision": "Vizyonumuz",
+        "vision-desc": "Vizyonumuz ondan ibarətdir ki, müştərilərə və işçilərə artıq dəyər vermək, keyfiyyətli məhsul və xidmətlər vasitəsilə geniş auditoriyaya müraciət etmək, sosial məsuliyyətlərini, dəyərlərinə sadiqliyini, etibarlılığını, keyfiyyət idarəçiliyini, məhsul və xidmətlər çeşidində liderliyini, mütəxəssis heyətini və müştəri mərkəzli xidmət anlayışını icra etmək və ağla gələn ilk qurum olmaq. Azərbaycanda etibarlı binalar yaradan və keyfiyyətli yaşayış sahələri inkişaf etdirən şirkətlərdən biri olmaq. Dəyişən müştəri gözləntilərinə tez cavab vermək üçün davamlı inkişaf fəaliyyətlərini effektiv şəkildə davam etdirin.",
+        "values": "Değerlerimiz",
+        "values-desc": "Həyata keçirdiyimiz hər bir fəaliyyətin əsasını müəyyən korporativ dəyərlərimiz təşkil edir. Gördüyümüz layihələrdə bu dəyərlərin dekommunizasiya edilə bilməyəcəyini bilirik və buna uyğun işləyirik. Dəyərlərimizə uyğun işlədiyimiz zaman təqdim etdiyimiz sektorda daha çox uğur qazanacağımızı bilirik.",
+        "policy": "Şirket Politikamız",
+        "policy-desc": ""
+    },
+    "services": {
+        "ges": "GES (Günəş Elektrik Stansiyası)",
+        "res": "KES (Külək Elektrik Stansiyası)",
+        "hes": "SES (Su Elektrik Stansiyası)",
+        "foundation": "BİNÖVRƏ TİKİNTİSİ",
+        "steel": "POLAD CONSTRUCTION"
+    },
+    "machinery": {
+        "greyder": "Greyder",
+        "katok": "Silindir",
+        "manipulyator": "Hiyap qaldırıcı kran",
+        "ekskavator": "Eskavator",
+        "buldozer": "Buldozer",
+        "teleskopik-forklift": "Teleskopik yükləyici",
+        "yanacaq-mashini": "Yanacaq arabası",
+        "kran": "Kran",
+        "generator": "Generator",
+        "konteyner": "Konteyner",
+        "manlift": "Manlift",
+        "sicissor-lift": "Qayçı qaldırıcı",
+        "forklift": "Forklift"
+    },
+    "contact-us": {
+        "title": "Bizimlə əlaqə saxlaya bilərsiniz",
+        "numbers": "Nömrələr",
+        "subscribe": "Bizi takib edin:"
+    },
+    "form": {
+        "name": "Adınız",
+        "phone-number": "Telefon Nömrəsi",
+        "message": "Mesajınızı daxil edin",
+        "button": "Göndər"
+    }
+}

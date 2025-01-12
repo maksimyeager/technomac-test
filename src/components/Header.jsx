@@ -4,17 +4,19 @@ import burgerSvg from "../assets/icons/burger.svg";
 import LanguageSelector from "./LanguageSelector";
 import MobileNavbar from "./MobileNavbar";
 import { useState } from "react";
-
-const headerLinks = [
-    { name: "Hakkımızda", path: "/about-us" },
-    { name: "Faaliyet Alanlarımız", path: "/activities" },
-    { name: "Makina Parkı", path: "/machines" },
-    { name: "İletişim", path: "/contact-us" },
-];
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+    const { t } = useTranslation("global");
+
     const [open, setOpen] = useState(false);
 
+    const headerLinks = [
+        { name: t("navbar.about-us"), path: "/about-us" },
+        { name: t("navbar.services"), path: "/activities" },
+        { name: t("navbar.machinery"), path: "/machines" },
+        { name: t("navbar.contact-us"), path: "/contact-us" },
+    ];
     const handleClose = () => {
         setOpen(false);
     };
@@ -40,13 +42,16 @@ const Header = () => {
                     </div>
                     <div className="header__actions">
                         <LanguageSelector />
-                        <button className="header__btn" onClick={() => setOpen(true)}>
+                        <button
+                            className="header__btn"
+                            onClick={() => setOpen(true)}
+                        >
                             <img src={burgerSvg} alt="" />
                         </button>
                     </div>
                 </div>
             </header>
-            <MobileNavbar open={open} onClose={handleClose}/>
+            <MobileNavbar open={open} onClose={handleClose} />
         </>
     );
 };

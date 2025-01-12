@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Form = () => {
+    const { t } = useTranslation("global");
+
     const [formData, setFormData] = useState({
         fullName: "",
         phone: "",
@@ -32,7 +35,7 @@ const Form = () => {
                         id="fullName"
                         name="fullName"
                         className="form__input"
-                        placeholder="Adınız"
+                        placeholder={t("form.name")}
                         value={formData.fullName}
                         onChange={handleChange}
                         required
@@ -44,7 +47,7 @@ const Form = () => {
                         id="phone"
                         name="phone"
                         className="form__input"
-                        placeholder="Telefon nömrəniz"
+                        placeholder={t("form.phone-number")}
                         value={formData.phone}
                         onChange={handleChange}
                         required
@@ -68,14 +71,14 @@ const Form = () => {
                     id="message"
                     name="message"
                     className="form__textarea"
-                    placeholder="Mesajınızı daxil edin"
+                    placeholder={t("form.message")}
                     value={formData.message}
                     onChange={handleChange}
                     required
                 ></textarea>
             </div>
             <button type="submit" className="form__button">
-                Göndər
+                {t("form.button")}
             </button>
         </form>
     );

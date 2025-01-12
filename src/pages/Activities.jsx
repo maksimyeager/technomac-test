@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 
-import { activities } from "../data/activities";
+import { getActivities } from "../data/activities";
 import Banner from "../components/Banner";
 import bannerImg from "../assets/banners/activities.jpg";
 
 const Activities = () => {
+    const { t } = useTranslation("global");
+    const activities = getActivities(t);
     return (
         <>
-            <Banner title={"Faaliyet Alanlarımız"} bgImage={bannerImg} />
+            <Banner title={t("navbar.services")} bgImage={bannerImg} />
 
             <div className="activities">
                 <div className="container">
@@ -33,7 +36,7 @@ const Activities = () => {
                                             to={activity.path}
                                             className="link link-1"
                                         >
-                                            <span>Daha fazla</span>
+                                            <span>{t("home.button")}</span>
                                             <FaArrowRight
                                                 color="#fff"
                                                 size={20}

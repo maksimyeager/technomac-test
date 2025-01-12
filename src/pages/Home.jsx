@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { FaArrowRight } from "react-icons/fa";
 
 import weldingImg from "../assets/home-page/welding.png";
@@ -6,22 +7,21 @@ import grayEllipses from "../assets/gray-ellipses.png";
 import redEllipses from "../assets/red-ellipses.png";
 import black from "../assets/black.png";
 
-import { activities } from "../data/activities";
-// import { projects } from "../data/projects";
+import { getActivities } from "../data/activities";
 
 const Home = () => {
+    const { t } = useTranslation("global");
+    const activities = getActivities(t);
+
     return (
         <>
             <div className="home-banner">
                 <div className="container">
                     <div className="home-banner__info">
                         <p className="home-subtitle">
-                            Technomak’a Hoş Geldiniz!
+                            {t("home-banner.subtitle")}
                         </p>
-                        <h1 className="home-title">
-                            Sektörde En iyi <br />
-                            Hizmeti Sunuyoruz
-                        </h1>
+                        <h1 className="home-title">{t("home-banner.title")}</h1>
                         <p className="home-info">{/* Deacription */}</p>
                     </div>
                 </div>
@@ -46,21 +46,14 @@ const Home = () => {
                     </div>
                     <div className="section--about-us-info">
                         {/* <p className="section__subtitle">Quis autem vel eum</p> */}
-                        <h2 className="section__title">Hakkımızda</h2>
-                        <p>
-                            Bizler yılların birikimini ülkemize kazandırmak ve
-                            ülkemize bir fayda sağlamak maksadı iş makinaları
-                            kiralama ve inşaat  işleri  ile ilgili Technomak MMC
-                            olarak Azerbaycanda kurulmuştur.
-                        </p>
-                        <p>
-                            Technomak MMC olarak yıllardır sürekliliğini en iyi
-                            şekilde devam ettiren, vizyon ve misyonlarından ödün
-                            vermeden büyük bir özveriyle başarılarını günümüze
-                            kadar getirmiştir.
-                        </p>
+                        <h2 className="section__title">
+                            {" "}
+                            {t("home.about-us-title")}
+                        </h2>
+                        <p>{t("home.about-us-desc-1")}</p>
+                        <p>{t("home.about-us-desc-2")}</p>
                         <Link to={"/about-us"} className="link link-1">
-                            <span>Daha fazla</span>
+                            <span>{t("home.button")}</span>
                             <FaArrowRight color="#fff" size={20} />
                         </Link>
                     </div>
@@ -68,7 +61,9 @@ const Home = () => {
             </section>
             <section className="section section--activities">
                 <div className="container">
-                    <h2 className="section__title">Faaliyet Alanlarımız</h2>
+                    <h2 className="section__title">
+                        <p>{t("home.services")}</p>
+                    </h2>
                     <div className="cards">
                         <div className="cards__wrapper">
                             {activities.map((activity, index) => {
@@ -104,14 +99,14 @@ const Home = () => {
                 <div className="section__block-wrapper section__block-wrapper-1">
                     <div className="section__block section__block-1">
                         <div className="container">
-                            <h2 className="section__block-title">Misyonumuz</h2>
+                            <h2 className="section__block-title">
+                                {t("home.section-info-mission")}
+                            </h2>
                             <div className="section__block-description">
-                                Technomak mmc olarak kaliteli tasarımları
-                                ulaşılabilir fiyatlarla sunmak, müşterilerimizin
-                                ...
+                                {t("home.section-info-mission-desc")}
                             </div>
                             <Link to={"/about-us"} className="link link-2">
-                                <span>Daha fazla</span>
+                                <span>{t("home.button")}</span>
                                 <FaArrowRight size={20} />
                             </Link>
                         </div>
@@ -120,17 +115,14 @@ const Home = () => {
                 <div className="section__block-wrapper section__block-wrapper-2">
                     <div className="section__block section__block-2">
                         <div className="container">
-                            <h2 className="section__block-title">Vizyonumuz</h2>
+                            <h2 className="section__block-title">
+                                {t("home.section-info-vision")}
+                            </h2>
                             <div className="section__block-description">
-                                Müşteri ve çalışanlarına artı değer sağlayan,
-                                kaliteli ürün ve hizmetleri ile geniş kitlelere
-                                erişen, toplumsal sorumluluğunun bilincinde,
-                                değerlerine sadık, güvenilirliği, kalite
-                                yönetimi, ürün ve hizmet çeşitliliğinde
-                                öncülüğü...
+                                {t("home.section-info-vision-desc")}
                             </div>
                             <Link to={"/about-us"} className="link link-3">
-                                <span>Daha fazla</span>
+                                <span>{t("home.button")}</span>
                                 <FaArrowRight size={20} />
                             </Link>
                         </div>

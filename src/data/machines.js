@@ -12,30 +12,30 @@ import Manlift from "../assets/machines/manlift.jpg";
 import SicissorLift from "../assets/machines/sicissor-lift.jpg";
 import Forklift from "../assets/machines/forklift.jpg";
 
-export const machines = [
-    { name: "Greyder", imageUrl: Greyder, path: "/machine/greyder" },
-    { name: "Silindir", imageUrl: Katok, path: "/machine/katok" },
-    { name: "Hiyap", imageUrl: Manipulator, path: "/machine/manipulyator" },
-    { name: "Eskavator", imageUrl: Eskavator, path: "/machine/ekskavator" },
-    { name: "Buldozer", imageUrl: Buldozer, path: "/machine/buldozer" },
+export const getMachines = (t) => [
+    { name: t("machinery.greyder"), imageUrl: Greyder, path: "/machine/greyder" },
+    { name: t("machinery.katok"), imageUrl: Katok, path: "/machine/katok" },
+    { name: t("machinery.manipulyator"), imageUrl: Manipulator, path: "/machine/manipulyator" },
+    { name: t("machinery.ekskavator"), imageUrl: Eskavator, path: "/machine/ekskavator" },
+    { name: t("machinery.buldozer"), imageUrl: Buldozer, path: "/machine/buldozer" },
     {
-        name: "Teleskopik forklift",
+        name: t("machinery.teleskopik-forklift"),
         imageUrl: TeleskopikForklift,
         path: "/machine/teleskopik-forklift",
     },
     {
-        name: "Yakıt arabası",
+        name: t("machinery.yanacaq-mashini"),
         imageUrl: YanaqmaqMasini,
         path: "/machine/yanacaq-mashini",
     },
-    { name: "Vinç", imageUrl: Kran, path: "/machine/kran" },
-    { name: "Jenarator", imageUrl: Generator, path: "/machine/generator" },
-    { name: "Konteyner", imageUrl: Konteyner, path: "/machine/konteyner" },
-    { name: "Manlift", imageUrl: Manlift, path: "/machine/manlift" },
+    { name: t("machinery.kran"), imageUrl: Kran, path: "/machine/kran" },
+    { name: t("machinery.generator"), imageUrl: Generator, path: "/machine/generator" },
+    { name: t("machinery.konteyner"), imageUrl: Konteyner, path: "/machine/konteyner" },
+    { name: t("machinery.manlift"), imageUrl: Manlift, path: "/machine/manlift" },
     {
-        name: "Sicissor Lift",
+        name: t("machinery.sicissor-lift"),
         imageUrl: SicissorLift,
-        path: "/machine/sicissor-lift",
+        path: "machine/sicissor-lift",
     },
-    { name: "Forklift", imageUrl: Forklift, path: "/machine/forklift" },
+    { name: t("machinery.forklift"), imageUrl: Forklift, path: "/machine/forklift" },
 ];

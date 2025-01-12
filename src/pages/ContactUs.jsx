@@ -6,17 +6,20 @@ import linkedinSvg from "../assets/icons/linkedin.svg";
 import Form from "../components/Form";
 import Banner from "../components/Banner";
 import bannerImg from "../assets/banners/contact-us.jpg";
+import { useTranslation } from "react-i18next";
 
 const ContactUs = () => {
+    const { t } = useTranslation("global");
+
     return (
         <>
-            <Banner title={"İletişim"} bgImage={bannerImg} />
+            <Banner title={t("navbar.contact-us")}bgImage={bannerImg} />
 
             <div className="contact-us">
                 <div className="container">
                     <div className="contact-us__form">
                         <h2 className="contact-us__form-title">
-                            Bizimle İletişime Geçebilirsiniz
+                            {t("contact-us.title")}
                         </h2>
                         <Form />
                     </div>
@@ -27,7 +30,7 @@ const ContactUs = () => {
                                     <img src={phoneSvg} alt="" />
                                 </div>
                                 <div className="contact-us__block-info">
-                                    <h2>Phone Number</h2>
+                                    <h2> {t("contact-us.numbers")}</h2>
                                     <div className="contact-us__block-data">
                                         <p>+994 (50) 230 03 15</p>
                                         <p>+994 (50) 250 44 91</p>
@@ -47,7 +50,7 @@ const ContactUs = () => {
                         </div>
                         <div className="contact-us__socials">
                             <div className="contact-us__socials-title">
-                                Bizi takip edin:
+                                {t("contact-us.subscribe")}
                             </div>
                             <div className="contact-us__socials-wrap">
                                 <div className="contact-us__socials-block">

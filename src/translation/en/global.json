@@ -1,1 +1,83 @@
-[]
+{
+    "navbar": {
+        "about-us": "About Us",
+        "services": "Services",
+        "machinery": "Machinery",
+        "contact-us": "Contact Us"
+    },
+    "mobile-navbar": {
+        "about-us": "About Us",
+        "services": "Services",
+        "machinery": "Machinery",
+        "contact-us": "Contact Us"
+    },
+    "footer": {
+        "about-us": "About Us",
+        "services": "Services",
+        "machinery": "Machinery",
+        "contact-us": "Contact Us",
+        "pages": "Pages"
+    },
+    "home-banner": {
+        "subtitle": "Welcome To Technomak!",
+        "title": "We Offer The Best Service In Our Industry"
+    },
+    "home": {
+        "about-us-title": "About Us",
+        "about-us-desc-1": "We have been established in Azerbaijan as Technomak LLC related to the rental of construction machinery and construction works in order to bring the years of experience to our country and provide a benefit to our country.",
+        "about-us-desc-2": "As Technomak LLC, which has been continuing its continuity in the best way for many years, has brought its achievements to the present day with great dedication without compromising its vision and missions.",
+        "services": "Services",
+        "section-info-mission": "Mission",
+        "section-info-mission-desc": "As Technomak LLC, we offer quality designs at affordable prices...",
+        "section-info-vision": "Vision",
+        "section-info-vision-desc": "By providing customers and employees with added value, reaching a wide audience with quality products and services...",
+        "button": "More"
+    },
+    "about-us": {
+        "subtitle": "Welcome To Technomak!",
+        "title": "About Us",
+        "desc-1": "We have been established in Azerbaijan as Technomak LLC related to the rental of construction machinery and construction works in order to bring the years of experience to our country and provide a benefit to our country.",
+        "desc-2": "As Technomak LLC, which has been continuing its continuity in the best way for many years, has brought its achievements to the present day with great dedication without compromising its vision and missions.",
+        "mission": "Mission",
+        "mission-desc": "As Technomak LLC, we offer quality designs at affordable prices, keep their satisfaction at the highest level by producing the most suitable solutions for the expectations of our customers, complete the project deliveries under our commitment on time and in accordance with the standards, evaluate suppliers within the whole quality system and aim to continuously improve together, follow and implement technological developments, make the issue of occupational safety of the first order and improve, use environmentally friendly building materials to the extent possible, it is our mission to apply and be respectful to the environment.",
+        "vision": "Vision",
+        "vision-desc": "By providing customers and employees with added value, reaching a wide audience with quality products and services, realizing their social responsibility, loyalty to their values, reliability, quality management, leadership in the range of products and services, specialized staff and customer-oriented understanding of service, to be the first institution that comes to mind and is preferred. Combining our heritage, knowledge and experience gained in the past with strong cooperation, qualified human resources and innovative approaches. To be one of the companies creating reliable buildings and developing high-quality residential premises in Azerbaijan. Effectively support continuous improvement activities to respond quickly to changing customer expectations. Always keep a close eye on industry technologies in order to provide quality services.",
+        "values": "Our Values",
+        "values-desc": "Our specific corporate values are at the heart of every activity we carry out. In the projects we undertake, we know that these values cannot be decommunized, and we work accordingly. When we work according to our values, we know that we will achieve greater success in the sector we provide.",
+        "policy": "Our Policy",
+        "policy-desc": ""
+    },
+    "services": {
+        "ges": "SPP (Solar Power Plant)",
+        "res": "WPP (Wind Power Plant)",
+        "hes": "HPP (Hydro Power Plant)",
+        "foundation": "FOUNDATION CONSTRUCTION",
+        "steel": "STEEL CONSTRUCTION"
+    },
+    "machinery": {
+        "greyder": "Grader",
+        "katok": "Road roller",
+        "manipulyator": "Hiyap crane",
+        "ekskavator": "Escavator",
+        "buldozer": "Bulldozer",
+        "teleskopik-forklift": "Telescopic handler",
+        "yanacaq-mashini": "Fuel car",
+        "kran": "Crane",
+        "generator": "Generator",
+        "konteyner": "Container",
+        "manlift": "Manlift",
+        "sicissor-lift": "Scissor lift",
+        "forklift": "Forklift"
+    },
+    "contact-us": {
+        "title": "You can contact us",
+        "numbers": "Phone numbers",
+        "subscribe": "Follow us:"
+    },
+    "form": {
+        "name": "Full Name",
+        "phone-number": "Phone Number",
+        "message": "Message",
+        "button": "Submit"
+    }
+}

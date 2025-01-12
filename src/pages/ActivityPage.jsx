@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
-import { activities } from "../data/activities";
-import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/navigation";
+import { getActivities } from "../data/activities";
+import { useTranslation } from "react-i18next";
 
 const ActivityPage = () => {
+    const { t } = useTranslation("global");
+
+    const activities = getActivities(t);
     const { activityName } = useParams();
     const activity = activities.find((activity) =>
         activity.path.includes(activityName)

@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import MobileLanguageSelctor from "./MobileLanguageSelector";
-
-const mobileNavbarLinks = [
-    { name: "Hakkımızda", path: "/about-us" },
-    { name: "Faaliyet Alanlarımız", path: "/activities" },
-    { name: "Makina Parkı", path: "/machines" },
-    { name: "İletişim", path: "/contact-us" },
-];
+import { useTranslation } from "react-i18next";
 
 // eslint-disable-next-line react/prop-types
 const MobileNavbar = ({ open, onClose }) => {
+    const { t } = useTranslation("global");
+
+    const mobileNavbarLinks = [
+        { name: t("navbar.about-us"), path: "/about-us" },
+        { name: t("navbar.services"), path: "/activities" },
+        { name: t("navbar.machinery"), path: "/machines" },
+        { name: t("navbar.contact-us"), path: "/contact-us" },
+    ];
+
     useEffect(() => {
         if (open) {
             document.body.classList.add("no-scroll");

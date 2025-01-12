@@ -9,33 +9,28 @@ import redEllipses from "../assets/red-ellipses.png";
 import black from "../assets/black.png";
 import Banner from "../components/Banner";
 import bannerImg from "../assets/banners/about-us.jpg";
+import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
+    const { t } = useTranslation("global");
+
     return (
         <>
-            <Banner title={"Hakkımızda"} bgImage={bannerImg} />
+            <Banner title={t("navbar.about-us")} bgImage={bannerImg} />
             <div className="about-us">
                 <section className="section section--1">
                     <div className="container">
                         <div className="section__wrapper">
                             <div className="section__info">
                                 <p className="section__subtitle">
-                                    Technomak’a Hoş Geldiniz!
+                                    {t("about-us.subtitle")}
                                 </p>
-                                <h2 className="section__title">Hakkımızda</h2>
+                                <h2 className="section__title">
+                                    {t("about-us.title")}
+                                </h2>
+                                <p>{t("about-us.desc-1")}</p>
                                 <p>
-                                    Bizler yılların birikimini ülkemize
-                                    kazandırmak ve ülkemize bir fayda sağlamak
-                                    maksadı iş makinaları kiralama ve inşaat 
-                                    işleri  ile ilgili Technomak MMC olarak
-                                    Azerbaycanda kurulmuştur.
-                                </p>
-                                <p>
-                                    Technomak MMC olarak yıllardır sürekliliğini
-                                    en iyi şekilde devam ettiren, vizyon ve
-                                    misyonlarından ödün vermeden büyük bir
-                                    özveriyle başarılarını günümüze kadar
-                                    getirmiştir.
+                                    <p>{t("about-us.desc-2")}</p>
                                 </p>
                             </div>
                             <div className="section__image">
@@ -70,26 +65,10 @@ const AboutUs = () => {
                                 </div>
                                 <div className="section__info">
                                     <h2 className="section__title">
-                                        Misyonumuz
+                                        {t("about-us.mission")}
                                     </h2>
                                     <p className="section__description">
-                                        Technomak MMC olarak kaliteli
-                                        tasarımları ulaşılabilir fiyatlarla
-                                        sunmak, müşterilerimizin beklentilerine
-                                        en uygun çözümleri üreterek
-                                        memnuniyetlerini en üst seviyede tutmak,
-                                        taahhüdümüz altında olan proje
-                                        teslimlerini zamanında ve standartlara
-                                        uygun tamamlamak, tedarikçileri kalite
-                                        sisteminin bütünü içerisinde
-                                        değerlendirip hep birlikte sürekli
-                                        iyileştirmeyi amaçlamak, teknolojik
-                                        gelişmeleri takip etmek ve uygulamak, iş
-                                        güvenliği konusunu birinci dereceden
-                                        önemli kılmak ve geliştirmek, mümkün
-                                        olduğu ölçüde çevre dostu yapı
-                                        malzemelerini kullanmak, uygulamak ve
-                                        çevreye saygılı olmak misyonumuzdur.
+                                        {t("about-us.mission-desc")}
                                     </p>
                                 </div>
                             </div>
@@ -100,29 +79,11 @@ const AboutUs = () => {
                     <div className="container">
                         <div className="section__wrapper">
                             <div className="section__info">
-                                <h2 className="section__title">Vizyonumuz</h2>
+                                <h2 className="section__title">
+                                    {t("about-us.vision")}
+                                </h2>
                                 <p className="section__description">
-                                    Müşteri ve çalışanlarına artı değer
-                                    sağlayan, kaliteli ürün ve hizmetleri ile
-                                    geniş kitlelere erişen, toplumsal
-                                    sorumluluğunun bilincinde, değerlerine
-                                    sadık, güvenilirliği, kalite yönetimi, ürün
-                                    ve hizmet çeşitliliğinde öncülüğü, uzman
-                                    personeli ve müşteri odaklı hizmet
-                                    anlayışıyla ilk akla gelen ve tercih edilen
-                                    kurum olmak. Geçmişimizden aldığımız
-                                    mirasımızı, bilgi ve deneyimimizi, güçlü
-                                    işbirlikleri, nitelikli insan kaynakları ve
-                                    yenilikçi yaklaşımlar ile birleştirmek.
-                                    Azerbaycanda güvenilir yapılar oluşturan ve
-                                    kaliteli yaşam alanları geliştiren
-                                    şirketlerden biri olmak. Değişen müşteri
-                                    beklentilerine hızlı bir şekilde cevap
-                                    verebilmek için sürekli iyileştirme
-                                    faaliyetlerini etkin olarak sürdürmek.
-                                    Kaliteli hizmet sunmak amacıyla her zaman
-                                    sektörel alandaki teknolojileri yakından
-                                    takip etmek.
+                                    {t("about-us.vision-desc")}
                                 </p>
                             </div>
                             <div className="section__image">
@@ -155,18 +116,11 @@ const AboutUs = () => {
                                 </div>
                                 <div className="section__info">
                                     <h2 className="section__title">
-                                        Değerlerimiz
+                                        {t("about-us.values")}
                                     </h2>
                                     <p className="section__description">
-                                        Gerçekleştirdiğimiz her aktivitenin
-                                        temelinde, tanımlanmış şirket
-                                        değerlerimiz yatar. Üstlendiğimiz
-                                        projelerde, bu değerlerin göz ardı
-                                        edilmemesi gerektiğini bilir ve buna
-                                        göre çalışırız. Değerlerimize bağlı
-                                        çalıştığımızda, hizmet sağladığımız
-                                        sektörde, daha fazla başarıya
-                                        ulaşacağımızı biliriz.
+                                    {t("about-us.values-desc")}
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -179,7 +133,8 @@ const AboutUs = () => {
                         <div className="section__wrapper">
                             <div className="section__info">
                                 <h2 className="section__title">
-                                    Şirket Politikamız
+                                {t("about-us.policy")}
+
                                 </h2>
                                 <p className="section__description">
                                     Müşteri ihtiyaçlarını esas alarak taleplere

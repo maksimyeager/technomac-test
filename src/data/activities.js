@@ -10,9 +10,9 @@ import resSvg from "../assets/icons/res.svg";
 import gesSvg from "../assets/icons/ges.svg";
 import buildingSvg from "../assets/icons/building.svg";
 
-export const activities = [
+export const getActivities = (t) => [
     {
-        name: "GES (Güneş Elektrik Santrali)",
+        name: t("services.ges"),
         imageUrl: activity1,
         icon: gesSvg,
         path: "/activity/ges",
@@ -31,7 +31,7 @@ export const activities = [
         ],
     },
     {
-        name: "RES (Rüzgar Enerji Santrali)",
+        name: t("services.res"),
         imageUrl: activity2,
         icon: resSvg,
         path: "/activity/res",
@@ -47,7 +47,7 @@ export const activities = [
         ],
     },
     {
-        name: "HES (Hidro Elektrik Santrali)",
+        name: t("services.hes"),
         imageUrl: activity3,
         icon: hesSvg,
         path: "/activity/hes",
@@ -66,7 +66,7 @@ export const activities = [
         ],
     },
     {
-        name: "Altyapı İnşaat",
+        name: t("services.foundation"),
         imageUrl: activity4,
         icon: roadSvg,
         path: "/activity/altyapı-insaat",
@@ -85,7 +85,7 @@ export const activities = [
         ],
     },
     {
-        name: "Çelik Construction",
+        name: t("services.steel"),
         imageUrl: activity5,
         icon: buildingSvg,
         path: "/activity/celik-construction",
