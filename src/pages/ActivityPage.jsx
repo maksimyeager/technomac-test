@@ -2,6 +2,9 @@ import { useParams } from "react-router-dom";
 import { getActivities } from "../data/activities";
 import { useTranslation } from "react-i18next";
 
+import logo2 from "../assets/logo-2.png"
+import icon from "../assets/&.png"
+
 const ActivityPage = () => {
     const { t } = useTranslation("global");
 
@@ -15,17 +18,37 @@ const ActivityPage = () => {
         <div className="page">
             <div className="container">
                 <div className="page__info">
+                    {activity.path.includes("celik-construction") && (
+                        <div className="partners">
+                            <img src={icon} alt="" />
+                            <img src={logo2} alt="" />
+                        </div>
+                    )}
                     <h2>{activity.name}</h2>
                     <ul>
-                        {activity.list.map((item,index) => {
-                            return <li key={index}>{item}</li>
+                        {activity.list.map((item, index) => {
+                            return <li key={index}>{item}</li>;
                         })}
                     </ul>
+                    {activity.path.includes("celik-construction") && (
+                        <a
+                            href="https://www.tersanmetal.com.tr/"
+                            className="page__link"
+                        >
+                            tersanmetal.com
+                        </a>
+                    )}
                 </div>
                 <div className="page__img">
                     <img src={activity.imageUrl} alt="" />
                 </div>
                 <div className="page__title">
+                {activity.path.includes("celik-construction") && (
+                        <div className="partners">
+                            <img src={icon} alt="" />
+                            <img src={logo2} alt="" />
+                        </div>
+                    )}
                     <h2>{activity.name}</h2>
                 </div>
             </div>
