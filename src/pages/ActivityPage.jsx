@@ -16,7 +16,11 @@ const ActivityPage = () => {
             <div className="container">
                 <div className="page__info">
                     <h2>{activity.name}</h2>
-                    <p>{activity.description}</p>
+                    <ul>
+                        {activity.list.map((item,index) => {
+                            return <li key={index}>{item}</li>
+                        })}
+                    </ul>
                 </div>
                 <div className="page__img">
                     <img src={activity.imageUrl} alt="" />

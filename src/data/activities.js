@@ -29,6 +29,13 @@ export const getActivities = (t) => [
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/2/8.jpg?updatedAt=1736695191195",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/2/9.jpg?updatedAt=1736695191288",
         ],
+        list: [
+            t("activity.activity1"),
+            t("activity.activity2"),
+            t("activity.activity3"),
+            t("activity.activity4"),
+            t("activity.activity5"),
+        ],
     },
     {
         name: t("services.res"),
@@ -44,6 +51,13 @@ export const getActivities = (t) => [
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/3/4.jpg?updatedAt=1736695186082",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/3/5.jpg?updatedAt=1736695186474",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/3/6.jpg?updatedAt=1736695186110",
+        ],
+        list: [
+            t("activity.activity1"),
+            t("activity.activity2"),
+            t("activity.activity3"),
+            t("activity.activity4"),
+            t("activity.activity5"),
         ],
     },
     {
@@ -64,6 +78,13 @@ export const getActivities = (t) => [
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/4/8.jpg?updatedAt=1736695182284",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/4/9.jpg?updatedAt=1736695181371",
         ],
+        list: [
+            t("activity.activity1"),
+            t("activity.activity2"),
+            t("activity.activity3"),
+            t("activity.activity4"),
+            t("activity.activity5"),
+        ],
     },
     {
         name: t("services.foundation"),
@@ -81,7 +102,14 @@ export const getActivities = (t) => [
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/1/6.jpg?updatedAt=1736695195493",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/1/7.jpg?updatedAt=1736695196151",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/1/8.jpg?updatedAt=1736695196242",
-            "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/1/8.jpg?updatedAt=1736695196242",
+            "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/1/9.jpg?updatedAt=1736695196341",
+        ],
+        list: [
+            t("activity.activity1"),
+            t("activity.activity2"),
+            t("activity.activity3"),
+            t("activity.activity4"),
+            t("activity.activity5"),
         ],
     },
     {
@@ -90,6 +118,7 @@ export const getActivities = (t) => [
         icon: buildingSvg,
         path: "/activity/celik-construction",
         description: "üretim ve montaj.",
+        list: [t("activity.activity6")],
         images: [
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/5/1.jpg?updatedAt=1736695177937",
             "https://ik.imagekit.io/httcx7fwtr/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%9C%D0%B0%D0%BA/5/2.jpg?updatedAt=1736695177333",

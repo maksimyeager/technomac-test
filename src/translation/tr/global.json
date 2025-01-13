@@ -79,5 +79,13 @@
         "phone-number": "Telefon Nömrəsi",
         "message": "Mesajınızı daxil edin",
         "button": "Göndər"
+    },
+    "activity": {
+        "activity1":"Fabrika sahasının alt yapısı, ",
+        "activity2":"Kanalizasyon hattının çekilmesi,",
+        "activity3":"Peyzaj,",
+        "activity4":"Otoyol ve Demiryolu, ",
+        "activity5":"Toprak altyapısı.",
+        "activity6":"Üretim ve montaj."
     }
 }

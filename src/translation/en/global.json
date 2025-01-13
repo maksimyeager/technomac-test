@@ -79,5 +79,13 @@
         "phone-number": "Phone Number",
         "message": "Message",
         "button": "Submit"
+    },
+    "activity": {
+        "activity1":"Infrastructure of the factory site,",
+        "activity2":"Withdrawal of the sewer line,",
+        "activity3":"Landscape,",
+        "activity4":"Highway and Railway,",
+        "activity5":"Soil infrastructure.",
+        "activity6":"Production and assembly."
     }
 }

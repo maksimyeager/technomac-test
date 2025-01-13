@@ -79,5 +79,13 @@
         "phone-number": "Telefon Nömrəsi",
         "message": "Mesajınızı daxil edin",
         "button": "Göndər"
+    },
+    "activity": {
+        "activity1":"Zavod ərazisinin infrastrukturu,",
+        "activity2":"Kanalizasiya xəttinin çəkilməsi,",
+        "activity3":"Mənzərə,",
+        "activity4":"Magistral və dəmir yolu,",
+        "activity5":"Torpaq infrastrukturu",
+        "activity6":"İstehsal və montaj."
     }
 }
