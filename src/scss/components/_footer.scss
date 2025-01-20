@@ -3,7 +3,7 @@
     padding-bottom: 15px;
     &__top {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 60px;
         padding-bottom: 60px;
         border-bottom: 2px solid #000000;

@@ -45,7 +45,12 @@
         "values": "Our Values",
         "values-desc": "Our specific corporate values are at the heart of every activity we carry out. In the projects we undertake, we know that these values cannot be decommunized, and we work accordingly. When we work according to our values, we know that we will achieve greater success in the sector we provide.",
         "policy": "Our Policy",
-        "policy-desc": ""
+        "policy-desc-1": "A disciplined and up-to-date approach to requirements in the fastest and most efficient way based on customer needs,",
+        "policy-desc-2": "The principle of providing quality services that are planned and whose standards are at the highest level,",
+        "policy-desc-3": "Timely completion and execution of projects according to the work schedule and technical specifications, as well as the use of modern and modern methods, technologies, information and management systems required by the era,",
+        "policy-desc-4": "Creating a peaceful working environment by developing mutual trust, respect, understanding, love, decommunization, and communication between employees,",
+        "policy-desc-5": "To carry out continuous improvement, ensuring the continuity of the quality assurance system,",
+        "policy-desc-6": "To implement a culture of prevention by systematically analyzing the risks associated with potentially dangerous situations and behaviors throughout our activities."
     },
     "services": {
         "ges": "SPP (Solar Power Plant)",

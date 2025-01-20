@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { getActivities } from "../data/activities";
 import { useTranslation } from "react-i18next";
 
-import logo2 from "../assets/logo-2.png"
+import logo2 from "../assets/logo-2.jpg"
 import icon from "../assets/&.png"
 
 const ActivityPage = () => {
@@ -13,14 +13,12 @@ const ActivityPage = () => {
     const activity = activities.find((activity) =>
         activity.path.includes(activityName)
     );
-    console.log(activity.images);
     return (
         <div className="page">
             <div className="container">
                 <div className="page__info">
                     {activity.path.includes("celik-construction") && (
                         <div className="partners">
-                            <img src={icon} alt="" />
                             <img src={logo2} alt="" />
                         </div>
                     )}
@@ -45,7 +43,6 @@ const ActivityPage = () => {
                 <div className="page__title">
                 {activity.path.includes("celik-construction") && (
                         <div className="partners">
-                            <img src={icon} alt="" />
                             <img src={logo2} alt="" />
                         </div>
                     )}

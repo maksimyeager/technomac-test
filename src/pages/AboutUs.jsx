@@ -119,8 +119,7 @@ const AboutUs = () => {
                                         {t("about-us.values")}
                                     </h2>
                                     <p className="section__description">
-                                    {t("about-us.values-desc")}
-                                        
+                                        {t("about-us.values-desc")}
                                     </p>
                                 </div>
                             </div>
@@ -133,29 +132,14 @@ const AboutUs = () => {
                         <div className="section__wrapper">
                             <div className="section__info">
                                 <h2 className="section__title">
-                                {t("about-us.policy")}
-
+                                    {t("about-us.policy")}
                                 </h2>
-                                <p className="section__description">
-                                    Müşteri ihtiyaçlarını esas alarak taleplere
-                                    en hızlı ve verimli şekilde disiplinli ve
-                                    ilgili yaklaşmak, Planlı ve standartları en
-                                    üst seviyede olan kaliteli hizmeti vermeyi
-                                    ilke edinmek, Projeleri iş programına ve
-                                    teknik şartnamelere uygun olarak zamanında
-                                    bitirmek ve teslim etmek, Çağın gerektirdiği
-                                    modern ve geçerli yöntem, teknoloji, bilgi
-                                    ve yönetim sistemlerini kullanmak,
-                                    Çalışanlar arasında karşılıklı güven, saygı,
-                                    sevgi anlayışı ve iletişimi geliştirerek
-                                    huzurlu bir iş ortamı oluşturmak, Kalite
-                                    güvence sisteminin devamlılığını sağlayarak
-                                    sürekli iyileşmeyi gerçekleştirmek, Tüm
-                                    faaliyetlerimiz kapsamında olası tehlikeli
-                                    durum ve davranışlar ile ilgili risk
-                                    değerlendirmelerini sistematik bir şekilde
-                                    yaparak önleme kültürünü yerleştirmek.
-                                </p>
+                                <p>{t("about-us.policy-desc-1")}</p>
+                                <p>{t("about-us.policy-desc-2")}</p>
+                                <p>{t("about-us.policy-desc-3")}</p>
+                                <p>{t("about-us.policy-desc-4")}</p>
+                                <p>{t("about-us.policy-desc-5")}</p>
+                                <p>{t("about-us.policy-desc-6")}</p>
                             </div>
                             <div className="section__image">
                                 <div className="section__image-block">

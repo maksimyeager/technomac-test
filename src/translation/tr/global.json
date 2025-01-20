@@ -16,7 +16,7 @@
         "services": "Faaliyet Alanlarımız",
         "machinery": "Makina Parkı",
         "contact-us": "İletişim",
-        "pages": "Səhifələr"
+        "pages": "Sahifalar"
     },
     "home-banner": {
         "subtitle": "Technomak’a Hoş Geldiniz!",
@@ -42,10 +42,15 @@
         "mission-desc": "Technomak MMC olarak kaliteli tasarımları ulaşılabilir fiyatlarla sunmak, müşterilerimizin beklentilerine en uygun çözümleri üreterek memnuniyetlerini en üst seviyede tutmak, taahhüdümüz altında olan proje teslimlerini zamanında ve standartlara uygun tamamlamak, tedarikçileri kalite sisteminin bütünü içerisinde değerlendirip hep birlikte sürekli iyileştirmeyi amaçlamak, teknolojik gelişmeleri takip etmek ve uygulamak, iş güvenliği konusunu birinci dereceden önemli kılmak ve geliştirmek, mümkün olduğu ölçüde çevre dostu yapı malzemelerini kullanmak, uygulamak ve çevreye saygılı olmak misyonumuzdur.",
         "vision": "Vizyonumuz",
         "vision-desc": "Müşteri ve çalışanlarına artı değer sağlayan, kaliteli ürün ve hizmetleri ile geniş kitlelere erişen, toplumsal sorumluluğunun bilincinde, değerlerine sadık, güvenilirliği, kalite yönetimi, ürün ve hizmet çeşitliliğinde öncülüğü, uzman personeli ve müşteri odaklı hizmet anlayışıyla ilk akla gelen ve tercih edilen kurum olmak. Geçmişimizden aldığımız mirasımızı, bilgi ve deneyimimizi, güçlü işbirlikleri, nitelikli insan kaynakları ve yenilikçi yaklaşımlar ile birleştirmek. Azerbaycanda güvenilir yapılar oluşturan ve kaliteli yaşam alanları geliştiren şirketlerden biri olmak. Değişen müşteri beklentilerine hızlı bir şekilde cevap verebilmek için sürekli iyileştirme faaliyetlerini etkin olarak sürdürmek. Kaliteli hizmet sunmak amacıyla her zaman sektörel alandaki teknolojileri yakından takip etmek.",
-        "values": "Değerlerimiz",
+        "values": "Deyerlerimiz",
         "values-desc": "Gerçekleştirdiğimiz her aktivitenin temelinde, tanımlanmış şirket değerlerimiz yatar. Üstlendiğimiz projelerde, bu değerlerin göz ardı edilmemesi gerektiğini bilir ve buna göre çalışırız. Değerlerimize bağlı çalıştığımızda, hizmet sağladığımız sektörde, daha fazla başarıya ulaşacağımızı biliriz.",
         "policy": "Şirket Politikamız",
-        "policy-desc": ""
+        "policy-desc-1": "Müşteri ihtiyaçlarını esas alarak taleplere en hızlı ve verimli şekilde disiplinli ve ilgili yaklaşmak,",
+        "policy-desc-2": "Planlı ve standartları en üst seviyede olan kaliteli hizmeti vermeyi ilke edinmek,",
+        "policy-desc-3": "Projeleri iş programına ve teknik şartnamelere uygun olarak zamanında bitirmek ve teslim etmek,",
+        "policy-desc-4": "Çağın gerektirdiği modern ve geçerli yöntem, teknoloji, bilgi ve yönetim sistemlerini kullanmak,",
+        "policy-desc-5": "Kalite güvence sisteminin devamlılığını sağlayarak sürekli iyileşmeyi gerçekleştirmek,",
+        "policy-desc-6": "Tüm faaliyetlerimiz kapsamında olası tehlikeli durum ve davranışlar ile ilgili risk değerlendirmelerini sistematik bir şekilde yaparak önleme kültürünü yerleştirmek"
     },
     "services": {
         "ges": "GES (Güneş Elektrik Santrali)",
@@ -72,7 +77,7 @@
     "contact-us": {
         "title": "Bizimle İletişime Geçebilirsiniz",
         "numbers": "Numaralar",
-        "subscribe": "BBizi takip edin:"
+        "subscribe": "Bizi takip edin:"
     },
     "form": {
         "name": "Adınız",

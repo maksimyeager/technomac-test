@@ -16,6 +16,7 @@
     }
 
     &__title {
+        display: none;
         .partners {
             display: none;
             @media (max-width: 576px) {
@@ -23,13 +24,12 @@
             }
         }
         h2 {
-            display: none;
             font-size: 28px;
             font-weight: 700;
             text-align: center;
-            @media (max-width: 576px) {
-                display: block;
-            }
+        }
+        @media (max-width: 576px) {
+            display: block;
         }
     }
 
@@ -107,8 +107,9 @@
 }
 
 .partners {
-    display: flex;
-    align-items: center;
-    gap: 8px;
     margin-bottom: 30px;
+
+    img {
+        width: 300px;
+    }
 }

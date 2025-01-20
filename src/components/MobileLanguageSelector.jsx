@@ -14,21 +14,20 @@ const MobileLanguageSelector = () => {
 
     return (
         <div className="mobile-language-selector">
-    <ul>
-        {languages.map((lang) => (
-            <li
-                key={lang}
-                className={`language-option ${
-                    lang === i18n.language ? "active" : ""
-                }`}
-                onClick={() => changeLanguage(lang)}
-            >
-                {lang.toLocaleUpperCase()}
-            </li>
-        ))}
-    </ul>
-</div>
-
+            <ul>
+                {languages.map((lang) => (
+                    <li
+                        key={lang}
+                        className={`language-option ${
+                            lang === i18n.language ? "active" : ""
+                        }`}
+                        onClick={() => changeLanguage(lang)}
+                    >
+                        {lang.toLocaleUpperCase()}
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 };
 

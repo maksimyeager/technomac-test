@@ -45,7 +45,12 @@
         "values": "Değerlerimiz",
         "values-desc": "Həyata keçirdiyimiz hər bir fəaliyyətin əsasını müəyyən korporativ dəyərlərimiz təşkil edir. Gördüyümüz layihələrdə bu dəyərlərin dekommunizasiya edilə bilməyəcəyini bilirik və buna uyğun işləyirik. Dəyərlərimizə uyğun işlədiyimiz zaman təqdim etdiyimiz sektorda daha çox uğur qazanacağımızı bilirik.",
         "policy": "Şirket Politikamız",
-        "policy-desc": ""
+        "policy-desc-1": "Müştəri ehtiyaclarına əsaslanan tələblərə ən sürətli və ən təsirli şəkildə intizamlı və uyğun bir yanaşma,",
+        "policy-desc-2": "Planlaşdırılan və standartları ən yüksək səviyyədə olan keyfiyyətli xidmətlərin göstərilməsi prinsipi,",
+        "policy-desc-3": "İş qrafikinə və texniki xüsusiyyətlərinə uyğun olaraq layihələrin vaxtında başa çatdırılması və icrası, habelə dövrün tələb etdiyi müasir və müasir metodlardan, texnologiyalardan, informasiya və idarəetmə sistemlərindən istifadə,",
+        "policy-desc-4": "Qarşılıqlı etimad, hörmət, dekommunizasiya sevgisini anlamaq və işçilər arasında ünsiyyət quraraq dinc bir iş mühiti yaratmaq,",
+        "policy-desc-5": "Keyfiyyət təminatı sisteminin davamlılığını təmin edərək davamlı təkmilləşdirməni həyata keçirin,",
+        "policy-desc-6": "Potensial təhlükəli vəziyyətlər və davranışlarla əlaqəli riskləri bütün fəaliyyətlərimiz daxilində sistematik şəkildə təhlil edərək profilaktika mədəniyyətini tətbiq edin."
     },
     "services": {
         "ges": "GES (Günəş Elektrik Stansiyası)",

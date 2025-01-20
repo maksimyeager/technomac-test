@@ -12,7 +12,7 @@ import { I18nextProvider } from "react-i18next";
 
 i18next.init({
     interpolation: { escapeValue: false },
-    lng: localStorage.getItem("lng") || "ru",
+    lng: localStorage.getItem("lng") || "az",
     resources: {
         tr: {
             global: global_tr,

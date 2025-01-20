@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import logo2 from "../assets/logo-2.jpg";
 import burgerSvg from "../assets/icons/burger.svg";
 import LanguageSelector from "./LanguageSelector";
 import MobileNavbar from "./MobileNavbar";
@@ -26,7 +27,7 @@ const Header = () => {
                 <div className="container">
                     <div className="header__logo">
                         <Link to={"/"}>
-                            <img src={logo} alt="" />
+                            <img src={logo} alt="" className="logo" />
                         </Link>
                     </div>
                     <div className="header__menu">

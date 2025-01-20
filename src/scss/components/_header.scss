@@ -15,8 +15,20 @@
     }
 
     &__logo {
+        position: relative;
         img {
             width: 150px;
+        }
+
+        .logo.none{
+            opacity: 0;
+        }
+
+        .logo-2{
+            width: 300px;
+            position: fixed;
+            top: 15px;
+            left: 0px;
         }
     }
 
